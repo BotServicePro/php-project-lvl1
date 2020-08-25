@@ -1,0 +1,14 @@
+{
+    "name": "alexdestebekou/php-project-lvl1",
+    "description": "brain-games first project from hexlett",
+    "authors": [
+        {
+            "name": "Alex Karakin",
+            "email": "karakin.alexandr@gmail.com"
+        }
+    ],
+    "require": {}
+    "bin": [
+      "bin/brain-games"
+    ]
+}
