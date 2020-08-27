@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61f13806-af9b-4a7e-826c-cfefeae23c07" name="Default Changelist" comment="checked by linter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cli.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
       <updated>1598529478994</updated>
       <workItem from="1598529481029" duration="116000" />
       <workItem from="1598529620033" duration="1113000" />
-      <workItem from="1598531170623" duration="1305000" />
+      <workItem from="1598531170623" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="checked by linter">
       <created>1598532161630</created>
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598532161631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="checked by linter">
+      <created>1598532568149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598532568149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,22 +157,22 @@
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="451" y="293" key="Github.CreateGistDialog/0.23.1280.725@0.23.1280.725" timestamp="1598532250921" />
-    <state width="1238" height="125" key="GridCell.Tab.0.bottom" timestamp="1598532529361">
+    <state width="1238" height="243" key="GridCell.Tab.0.bottom" timestamp="1598533218579">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="125" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598532529361" />
-    <state width="1238" height="125" key="GridCell.Tab.0.center" timestamp="1598532529360">
+    <state width="1238" height="243" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598533218579" />
+    <state width="1238" height="243" key="GridCell.Tab.0.center" timestamp="1598533218578">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="125" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598532529360" />
-    <state width="1238" height="125" key="GridCell.Tab.0.left" timestamp="1598532529359">
+    <state width="1238" height="243" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598533218578" />
+    <state width="1238" height="243" key="GridCell.Tab.0.left" timestamp="1598533218578">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="125" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598532529359" />
-    <state width="1238" height="125" key="GridCell.Tab.0.right" timestamp="1598532529360">
+    <state width="1238" height="243" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598533218578" />
+    <state width="1238" height="243" key="GridCell.Tab.0.right" timestamp="1598533218579">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="125" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598532529360" />
+    <state width="1238" height="243" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598533218579" />
     <state x="150" y="25" width="1037" height="722" key="SettingsEditor" timestamp="1598532236521">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
