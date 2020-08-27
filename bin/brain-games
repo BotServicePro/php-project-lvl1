@@ -1,26 +1,17 @@
 <?php
-//require __DIR__ . '/vendor/autoload.php';
 
-$autoloadPath1 = __DIR__ . '/../../../autoload.php';
-$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
-if (file_exists($autoloadPath1)) {
-    require_once $autoloadPath1;
-} else {
-    require_once $autoloadPath2;
-}
+//$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+//$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
+//if (file_exists($autoloadPath1)) {
+//    require_once $autoloadPath1;
+//} else {
+//    require_once $autoloadPath2;
+//}
 
-
-
-
+$path = __DIR__ . '/../vendor/autoload.php';
+require_once $path;
 
 use function php\project\lvl1\Cli\run;
 
 echo "Welcome to the Brain Games!";
 run();
-
-//use function \cli\line;
-//use function \cli\prompt;
- 
-//line('Welcome to the Brain Game!');
-//$name = prompt('May I have your name?');
-//line("Hello, %s!", $name);
