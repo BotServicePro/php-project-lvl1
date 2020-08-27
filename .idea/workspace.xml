@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f13806-af9b-4a7e-826c-cfefeae23c07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cli.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.Cli.php">
+    <configuration name="php-project-lvl1" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Cli.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/src/Cli.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -73,6 +85,11 @@
       </CommandLine>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.php-project-lvl1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +101,7 @@
       <updated>1598529478994</updated>
       <workItem from="1598529481029" duration="116000" />
       <workItem from="1598529620033" duration="1113000" />
+      <workItem from="1598531170623" duration="697000" />
     </task>
     <servers />
   </component>
@@ -106,30 +124,47 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="380" y="48" key="#PHP_CodeSniffer" timestamp="1598531831594">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="380" y="48" key="#PHP_CodeSniffer/0.0.1280.800@0.0.1280.800" timestamp="1598531831594" />
+    <state x="228" y="47" key="#Test_Frameworks" timestamp="1598531256170">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state x="228" y="47" key="#Test_Frameworks/0.23.1280.725@0.23.1280.725" timestamp="1598531256170" />
     <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598530331523">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.725@0.23.1280.725" timestamp="1598530331523" />
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom" timestamp="1598530789272">
+    <state width="619" height="158" key="GridCell.Tab.0.bottom" timestamp="1598531469216">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598530789272" />
-    <state width="1238" height="180" key="GridCell.Tab.0.center" timestamp="1598530789271">
+    <state width="619" height="158" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598531469216" />
+    <state width="619" height="158" key="GridCell.Tab.0.center" timestamp="1598531469216">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598530789271" />
-    <state width="1238" height="180" key="GridCell.Tab.0.left" timestamp="1598530789271">
+    <state width="619" height="158" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598531469216" />
+    <state width="619" height="158" key="GridCell.Tab.0.left" timestamp="1598531469215">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598530789271" />
-    <state width="1238" height="180" key="GridCell.Tab.0.right" timestamp="1598530789272">
+    <state width="619" height="158" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598531469215" />
+    <state width="619" height="158" key="GridCell.Tab.0.right" timestamp="1598531469216">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598530789272" />
-    <state x="150" y="25" key="SettingsEditor" timestamp="1598530034600">
-      <screen x="0" y="23" width="1280" height="725" />
+    <state width="619" height="158" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598531469216" />
+    <state x="103" y="71" width="1037" height="722" key="SettingsEditor" timestamp="1598531918538">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="103" y="71" width="1037" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598531918538" />
     <state x="150" y="25" key="SettingsEditor/0.23.1280.725@0.23.1280.725" timestamp="1598530034600" />
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1598531538072">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1598531538072" />
+    <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598531495638">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.725@0.23.1280.725" timestamp="1598531495638" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
