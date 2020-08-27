@@ -12,6 +12,11 @@
     },
     "license": "MIT",
     "bin": [
-      "bin/brain-games"
-    ]
+      "/bin/brain-games"
+    	],
+    "autoload": {
+        "files": [
+            "src/Cli.php"
+        ]
+    }
 }
