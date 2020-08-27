@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61f13806-af9b-4a7e-826c-cfefeae23c07" name="Default Changelist" comment="checked by linter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cli.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,7 @@
       <updated>1598529478994</updated>
       <workItem from="1598529481029" duration="116000" />
       <workItem from="1598529620033" duration="1113000" />
-      <workItem from="1598531170623" duration="2056000" />
+      <workItem from="1598531170623" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="checked by linter">
       <created>1598532161630</created>
@@ -117,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598532568149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="checked by linter">
+      <created>1598533490677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598533490677</updated>
+    </task>
+    <task id="LOCAL-00004" summary="checked by linter">
+      <created>1598533529566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598533529566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,39 +167,43 @@
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.725@0.23.1280.725" timestamp="1598532308562" />
-    <state x="451" y="293" key="Github.CreateGistDialog" timestamp="1598532250921">
+    <state x="451" y="293" key="Github.CreateGistDialog" timestamp="1598533424333">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state x="451" y="293" key="Github.CreateGistDialog/0.23.1280.725@0.23.1280.725" timestamp="1598532250921" />
-    <state width="1238" height="243" key="GridCell.Tab.0.bottom" timestamp="1598533218579">
+    <state x="451" y="293" key="Github.CreateGistDialog/0.23.1280.725@0.23.1280.725" timestamp="1598533424333" />
+    <state width="1238" height="111" key="GridCell.Tab.0.bottom" timestamp="1598533980290">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598533218579" />
-    <state width="1238" height="243" key="GridCell.Tab.0.center" timestamp="1598533218578">
+    <state width="1238" height="111" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598533980290" />
+    <state width="1238" height="111" key="GridCell.Tab.0.center" timestamp="1598533980288">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598533218578" />
-    <state width="1238" height="243" key="GridCell.Tab.0.left" timestamp="1598533218578">
+    <state width="1238" height="111" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598533980288" />
+    <state width="1238" height="111" key="GridCell.Tab.0.left" timestamp="1598533980286">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598533218578" />
-    <state width="1238" height="243" key="GridCell.Tab.0.right" timestamp="1598533218579">
+    <state width="1238" height="111" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598533980286" />
+    <state width="1238" height="111" key="GridCell.Tab.0.right" timestamp="1598533980288">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598533218579" />
+    <state width="1238" height="111" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598533980288" />
     <state x="150" y="25" width="1037" height="722" key="SettingsEditor" timestamp="1598532236521">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="103" y="71" width="1037" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598531918538" />
     <state x="150" y="25" key="SettingsEditor/0.23.1280.725@0.23.1280.725" timestamp="1598532236521" />
-    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1598532398664">
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1598533555052">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1598532398664" />
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1598533555052" />
     <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598532380332">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.725@0.23.1280.725" timestamp="1598532380332" />
+    <state x="305" y="72" width="670" height="676" key="search.everywhere.popup" timestamp="1598533793487">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state x="305" y="72" width="670" height="676" key="search.everywhere.popup/0.23.1280.725@0.23.1280.725" timestamp="1598533793487" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
