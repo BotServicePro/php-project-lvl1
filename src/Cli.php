@@ -6,7 +6,7 @@ use function cli\prompt;
 
 function run()
 {
-    line('Welcome to the Brain Games by Alexander Karakin!');
+    line(' by Alexander Karakin!');
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
 }
