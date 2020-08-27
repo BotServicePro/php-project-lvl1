@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61f13806-af9b-4a7e-826c-cfefeae23c07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="61f13806-af9b-4a7e-826c-cfefeae23c07" name="Default Changelist" comment="checked by linter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cli.php" afterDir="false" />
     </list>
@@ -44,6 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="90cfb15d-fe6b-48e1-8f62-c7107102d011" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -65,7 +66,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="PHP Script.Cli.php">
     <configuration name="php-project-lvl1" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -101,8 +102,16 @@
       <updated>1598529478994</updated>
       <workItem from="1598529481029" duration="116000" />
       <workItem from="1598529620033" duration="1113000" />
-      <workItem from="1598531170623" duration="697000" />
+      <workItem from="1598531170623" duration="1305000" />
     </task>
+    <task id="LOCAL-00001" summary="checked by linter">
+      <created>1598532161630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598532161631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="checked by linter" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked by linter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="380" y="48" key="#PHP_CodeSniffer" timestamp="1598531831594">
@@ -132,39 +143,43 @@
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="228" y="47" key="#Test_Frameworks/0.23.1280.725@0.23.1280.725" timestamp="1598531256170" />
-    <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598530331523">
+    <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598532308562">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.725@0.23.1280.725" timestamp="1598530331523" />
-    <state width="619" height="158" key="GridCell.Tab.0.bottom" timestamp="1598531469216">
+    <state x="148" y="23" width="1071" height="725" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.725@0.23.1280.725" timestamp="1598532308562" />
+    <state x="451" y="293" key="Github.CreateGistDialog" timestamp="1598532250921">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="619" height="158" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598531469216" />
-    <state width="619" height="158" key="GridCell.Tab.0.center" timestamp="1598531469216">
+    <state x="451" y="293" key="Github.CreateGistDialog/0.23.1280.725@0.23.1280.725" timestamp="1598532250921" />
+    <state width="1238" height="125" key="GridCell.Tab.0.bottom" timestamp="1598532529361">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="619" height="158" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598531469216" />
-    <state width="619" height="158" key="GridCell.Tab.0.left" timestamp="1598531469215">
+    <state width="1238" height="125" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1598532529361" />
+    <state width="1238" height="125" key="GridCell.Tab.0.center" timestamp="1598532529360">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="619" height="158" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598531469215" />
-    <state width="619" height="158" key="GridCell.Tab.0.right" timestamp="1598531469216">
+    <state width="1238" height="125" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1598532529360" />
+    <state width="1238" height="125" key="GridCell.Tab.0.left" timestamp="1598532529359">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state width="619" height="158" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598531469216" />
-    <state x="103" y="71" width="1037" height="722" key="SettingsEditor" timestamp="1598531918538">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="125" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1598532529359" />
+    <state width="1238" height="125" key="GridCell.Tab.0.right" timestamp="1598532529360">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state width="1238" height="125" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1598532529360" />
+    <state x="150" y="25" width="1037" height="722" key="SettingsEditor" timestamp="1598532236521">
+      <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="103" y="71" width="1037" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598531918538" />
-    <state x="150" y="25" key="SettingsEditor/0.23.1280.725@0.23.1280.725" timestamp="1598530034600" />
-    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1598531538072">
+    <state x="150" y="25" key="SettingsEditor/0.23.1280.725@0.23.1280.725" timestamp="1598532236521" />
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1598532398664">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1598531538072" />
-    <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598531495638">
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1598532398664" />
+    <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598532380332">
       <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.725@0.23.1280.725" timestamp="1598531495638" />
+    <state x="441" y="306" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.725@0.23.1280.725" timestamp="1598532380332" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
