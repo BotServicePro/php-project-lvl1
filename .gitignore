@@ -3,6 +3,6 @@ logs
 *.swo
 *.swp
 *.cache
-build
 /.idea
+.idea
 
