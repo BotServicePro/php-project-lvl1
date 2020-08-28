@@ -15,7 +15,8 @@
       "bin/brain-games"
     	],
     "scripts": {
-    "phpcs": "phpcs"
+    "phpcs": "phpcs",
+    "test": "phpunit tests"
     }, 
     "autoload": {
         "files": [
