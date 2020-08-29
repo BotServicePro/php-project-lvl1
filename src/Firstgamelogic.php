@@ -26,7 +26,7 @@ function run()
             $winCounter++;
         }
         if ($userAnswer !== $rightAnswer) {
-            line("{$userAnswer} is wrong answer ;(. Correct answer was {$rightAnswer}.");
+            line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$name}");
             $winCounter = 0; // сбрасываем результаты
         }
