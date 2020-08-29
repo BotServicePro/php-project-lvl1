@@ -21,7 +21,7 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-	    "src/Firstgamelogic.php"
+	        "src/Firstgamelogic.php"
         ]
     },
     "require-dev": {
