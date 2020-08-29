@@ -16,7 +16,7 @@ function run()
         $numberForQuestion = rand(1, 50); // random number
         line("Question: {$numberForQuestion}");
         $userAnswer = prompt("Your answer");
-        if ($numberForQuestion % 2 === 0) { // if even, without reminder
+        if ($numberForQuestion % 2 === 0) { // if even, without remainder
             $rightAnswer = 'yes';
         } elseif ($numberForQuestion % 2 !== 0) {
             $rightAnswer = 'no';
