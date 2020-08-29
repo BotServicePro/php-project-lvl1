@@ -12,7 +12,7 @@ function run()
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
     line('Answer "yes" if the number is even, otherwise answer "no".');
-    for ($winCounter = 0; $winCounter < 3;) {
+    for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
         $numberForQuestion = rand(1, 50); // random number
         line("Question: {$numberForQuestion}");
         $userAnswer = prompt("Your answer");
@@ -28,9 +28,11 @@ function run()
         if ($userAnswer !== $rightAnswer) {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$name}");
+            $wrongCounter++; // count wrong answers
             $winCounter = 0; // results reset
         }
-        // line("Total " . $winCounter); // total wins
+        // line("Total wins " . $winCounter); // total wins
+        // line("Total lose " . $wrongCounter); // total lose
     }
     line("Congratulations, {$name}!");
 }
