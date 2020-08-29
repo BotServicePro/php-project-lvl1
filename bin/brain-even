@@ -1,6 +1,6 @@
 <?php
 
-$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+$autoloadPath1 = __DIR__ . '/../../../vendor/autoload.php';
 $autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
 $autoloadPath3 = __DIR__ . '/vendor/autoload.php';
 $autoloadPath4 = __DIR__ . '/../../vendor/autoload.php';
