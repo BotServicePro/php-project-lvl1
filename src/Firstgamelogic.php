@@ -13,10 +13,10 @@ function run()
     line("Hello, %s!", $name);
     line('Answer "yes" if the number is even, otherwise answer "no".');
     for ($winCounter = 0; $winCounter < 3;) {
-        $numberForQuestion = rand(1, 50); // Загаданное число
+        $numberForQuestion = rand(1, 50); // random number
         line("Question: {$numberForQuestion}");
         $userAnswer = prompt("Your answer");
-        if ($numberForQuestion % 2 === 0) { // если число четное, без остатка
+        if ($numberForQuestion % 2 === 0) { // if even, without reminder
             $rightAnswer = 'yes';
         } elseif ($numberForQuestion % 2 !== 0) {
             $rightAnswer = 'no';
@@ -28,9 +28,9 @@ function run()
         if ($userAnswer !== $rightAnswer) {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$name}");
-            $winCounter = 0; // сбрасываем результаты
+            $winCounter = 0; // results reset
         }
-        // line("Total " . $winCounter); // показывать количество успешных ответов
+        // line("Total " . $winCounter); // total wins
     }
     line("Congratulations, {$name}!");
 }
