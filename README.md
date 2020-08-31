@@ -3,4 +3,4 @@
 ![PHP Composer](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20Composer/badge.svg)
 
 How to install:
-[![asciicast](https://asciinema.org/a/356947.png)](https://asciinema.org/a/356947)
+<a href="https://asciinema.org/a/356947?autoplay=1"><img src="https://asciinema.org/a/356947.png" width="836"/></a>
