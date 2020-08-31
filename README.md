@@ -3,4 +3,6 @@
 ![PHP Composer](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20Composer/badge.svg)
 
 How to install globally:
-<a href="https://asciinema.org/a/356947?autoplay=1"><img src="https://asciinema.org/a/356947.png" width="836"/></a>
+<br>
+<a href="https://asciinema.org/a/356947?autoplay=1"><img src="https://asciinema.org/a/356947.png" width="300"/></a>
+
