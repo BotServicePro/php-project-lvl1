@@ -5,6 +5,4 @@ $path = __DIR__ . '/../vendor/autoload.php';
 require_once $path;
 
 use function php\project\lvl1\Cli\run;
-
-//echo "Welcome to the Brain Games!";
 run();
