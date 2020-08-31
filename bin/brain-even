@@ -1,19 +1,8 @@
 #!/usr/bin/env php
 <?php
 
-$autoloadPath1 = __DIR__ . '/../../../vendor/autoload.php';
-$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
-$autoloadPath3 = __DIR__ . '/vendor/autoload.php';
-$autoloadPath4 = __DIR__ . '/../../vendor/autoload.php';
-if (file_exists($autoloadPath1)) {
-    require_once $autoloadPath1;
-} elseif (file_exists($autoloadPath2)) {
-    require_once $autoloadPath2;
-} elseif (file_exists($autoloadPath3)) {
-    require_once $autoloadPath3;
-} elseif (file_exists($autoloadPath4)) {
-    require_once $autoloadPath4;
-}
+$path = __DIR__ . '/../vendor/autoload.php';
+require_once $path;
 
 use function php\project\lvl1\Firstgamelogic\run;
 run();
