@@ -4,5 +4,10 @@
 
 How to install globally:
 <br>
-<a href="https://asciinema.org/a/357138?autoplay=1"><img src="https://asciinema.org/a/357138.png" width="250"/></a>
+<a href="https://asciinema.org/a/356947?autoplay=1"><img src="https://asciinema.org/a/356947.png" width="250"/></a>
+<br>
+<br>
+How to use:
+<br>
+<a href="https://asciinema.org/a/357159?autoplay=1"><img src="https://asciinema.org/a/357159.png" width="250"/></a>
 
