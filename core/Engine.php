@@ -14,7 +14,7 @@ use function php\project\lvl1\Secondgamelogic\startSecondGame;
 
 function run()
 {
-    greetings(); // вызываем приветствие и спрашиваем имя
+    greetings(); // call to greetings
     line('Please, write number which game you want to play!');
     line('First game - if number is even: 1');
     line('Second game - calculating numbers: 2');

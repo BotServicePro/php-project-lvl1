@@ -7,7 +7,7 @@ use function cli\prompt;
 
 function startSecondGame()
 {
-    global $name; // глобальная переменная значение которой было задано в Comunnications
+    global $name; // global variable which was made in Communications
     $rightAnswer = '';
 
     for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
