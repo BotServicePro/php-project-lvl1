@@ -7,7 +7,7 @@ use function cli\prompt;
 
 function startFirstGame()
 {
-    global $name; // global variable which was made in Communications
+    global $userName; // global variable which was made in Communications
     $rightAnswer = '';
     line('Answer "yes" if the number is even, otherwise answer "no".');
     for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
@@ -25,12 +25,12 @@ function startFirstGame()
         }
         if ($userAnswer !== $rightAnswer) {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
-            line("Let's try again, {$name}");
+            line("Let's try again, {$userName}!");
             $wrongCounter++; // count wrong answers
             $winCounter = 0; // results reset
         }
         // line("Total wins " . $winCounter); // total wins
         // line("Total lose " . $wrongCounter); // total lose
     }
-    line("Congratulations, {$name}!");
+    line("Congratulations, {$userName}!");
 }
