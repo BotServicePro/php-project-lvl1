@@ -11,4 +11,6 @@ if (file_exists($autoloadPath1)) {
 }
 
 use function php\project\lvl1\Secondgamelogic\startSecondGame;
+use function php\project\lvl1\Communications\askingName;
+askingName();
 startSecondGame();

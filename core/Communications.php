@@ -21,3 +21,11 @@ function greetings() // greetings and asking username
     line(" ");
     return $name;
 }
+
+function askingName()
+{
+    line('Welcome to the Brain Games!');
+    global $name; // global variable for username
+    $name = prompt('May I have your name?');
+    line("Hello, %s!", $name);
+}
