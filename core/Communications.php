@@ -11,5 +11,6 @@ function greetings() // greetings and asking username
     global $name; // global variable for username
     $name = prompt('May I have your name?');
     line("Hello, %s!", $name);
+    line(" ");
     return $name;
 }

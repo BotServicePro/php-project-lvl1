@@ -13,7 +13,7 @@ function startSecondGame()
     for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
         $firstNumber = rand(-5, 50); // first random number
         $secondNumber = rand(-5, 50); // second random number
-        $expectedExpression = rand(1, 3); // number of which result we want
+        $expectedExpression = rand(1, 3); // number of which expression we want
 
         line('What is the result of the expression?');
 
