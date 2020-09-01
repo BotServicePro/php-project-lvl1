@@ -46,5 +46,5 @@ function startSecondGame()
         // line("Total wins " . $winCounter); // total wins
         // line("Total lose " . $wrongCounter); // total lose
     }
-    line("Congratulations, {$name}");
+    line("Congratulations, {$name}!");
 }
