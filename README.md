@@ -32,5 +32,5 @@ How to start second game "calculating numbers":
 <br>
 How to start third game "greatest common divisor":
 <br>
-<a href="https://asciinema.org/a/357338?autoplay=1"><img src="https://asciinema.org/a/357338.png" width="250"/></a>
+<a href="https://asciinema.org/a/357344?autoplay=1"><img src="https://asciinema.org/a/357344.png" width="250"/></a>
 
