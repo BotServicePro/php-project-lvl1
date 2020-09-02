@@ -13,7 +13,7 @@ How to install globally:
 <br>
 To start this project we have 2 ways. First - run games separately from each other by 
 <br>
-calling "brain-even", "brain-calc", "brain-nod" files.
+calling "brain-even", "brain-calc", "brain-nod", "brain-progression" files.
 <br>
 Second - start one controller file "gamesFlow" which gives you possibility to choese
 <br>
