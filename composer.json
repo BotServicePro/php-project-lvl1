@@ -16,7 +16,8 @@
         "bin/brain-even",
         "bin/gamesFlow",
         "bin/brain-calc",
-      "bin/brain-gcd"
+      "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "scripts": {
     "phpcs": "phpcs --standard=PSR12",
@@ -29,7 +30,8 @@
             "core/Engine.php",
             "games/Firstgamelogic.php",
             "games/Secondgamelogic.php",
-            "games/Thirdgamelogic.php"
+            "games/Thirdgamelogic.php",
+            "games/Fourthgamelogic.php"
         ]
     },
     "require-dev": {
