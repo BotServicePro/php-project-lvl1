@@ -36,7 +36,6 @@ function startThirdGame()
         //echo 'подсказка - ' . $rightAnswer;
         $userAnswer =  (int) prompt("Your answer");
 
-        ///////////////////////////
         if ($userAnswer === $rightAnswer) { // if even, without remainder
             line("Correct!");
             $winCounter++;
