@@ -33,7 +33,7 @@ function startThirdGame()
 
         line("Numbers {$firstNumber} and {$secondNumber}");
         $rightAnswer = nodCalculator($firstNumber, $secondNumber);
-        echo 'подсказка - ' . $rightAnswer;
+        //echo 'подсказка - ' . $rightAnswer;
         $userAnswer =  (int) prompt("Your answer");
 
         ////////////////////////////
@@ -45,6 +45,7 @@ function startThirdGame()
             line("Let's try again, {$userName}!");
             $wrongCounter++; // count wrong answers
             $winCounter = 0; // results reset
+            return;
         }
         // line("Total wins " . $winCounter); // total wins
         // line("Total lose " . $wrongCounter); // total lose

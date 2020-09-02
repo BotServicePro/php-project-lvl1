@@ -40,6 +40,7 @@ function startSecondGame()
             line("Let's try again, {$userName}!");
             $wrongCounter++; // count wrong answers
             $winCounter = 0; // results reset
+            return;
         }
         // line("Total wins " . $winCounter); // total wins
         // line("Total lose " . $wrongCounter); // total lose
