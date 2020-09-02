@@ -16,18 +16,18 @@ function startSecondGame()
         $secondNumber = mt_rand(-5, 50); // second random number
         $expectedExpression = mt_rand(1, 3); // number of which expression we want
         switch ($expectedExpression) {
-            case 1:
-                line("Question: {$firstNumber} + {$secondNumber}"); // +
-                $rightAnswer = $firstNumber + $secondNumber;
-                break;
-            case 2:
-                line("Question: {$firstNumber} - {$secondNumber}"); // -
-                $rightAnswer = $firstNumber - $secondNumber;
-                break;
-            case 3:
-                line("Question: {$firstNumber} * {$secondNumber}"); // *
-                $rightAnswer = $firstNumber * $secondNumber;
-                break;
+        case 1:
+            line("Question: {$firstNumber} + {$secondNumber}"); // +
+            $rightAnswer = $firstNumber + $secondNumber;
+            break;
+        case 2:
+            line("Question: {$firstNumber} - {$secondNumber}"); // -
+            $rightAnswer = $firstNumber - $secondNumber;
+            break;
+        case 3:
+            line("Question: {$firstNumber} * {$secondNumber}"); // *
+            $rightAnswer = $firstNumber * $secondNumber;
+            break;
         }
 
         $userAnswer =  (int) prompt("Your answer");
