@@ -19,7 +19,7 @@
         "bin/brain-nod"
     ],
     "scripts": {
-    "phpcs": "phpcs",
+    "phpcs": "phpcs --standard=PSR12",
     "test": "phpunit tests"
     }, 
     "autoload": {
