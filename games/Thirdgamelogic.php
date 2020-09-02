@@ -5,7 +5,7 @@ namespace php\project\lvl1\Thirdgamelogic;
 use function cli\line;
 use function cli\prompt;
 
-function nodCalculator($n, $m) // nod number generator
+function nodCalculator($n, $m) // nod number calculator
 {
     if (!is_numeric($n) || !is_numeric($m)) {
         print_r('Enter only numbers!');
@@ -20,7 +20,6 @@ function nodCalculator($n, $m) // nod number generator
 function startThirdGame()
 {
     global $userName; // global variable which was made in Communications
-    $rightAnswer = '';
     line('Enter the greatest common divisor');
     for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
         $firstNumber = mt_rand(1, 300); // first random number
@@ -34,7 +33,7 @@ function startThirdGame()
 
         line("Numbers {$firstNumber} and {$secondNumber}");
         $rightAnswer = nodCalculator($firstNumber, $secondNumber);
-        echo 'подсказка - {} ' . $rightAnswer;
+        echo 'подсказка - ' . $rightAnswer;
         $userAnswer =  (int) prompt("Your answer");
 
         ////////////////////////////
