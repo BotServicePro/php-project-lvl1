@@ -11,7 +11,7 @@ function startSecondGame()
     $rightAnswer = '';
     line('What is the result of the expression?');
 
-    for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
+    for ($winCounter = 0; $winCounter < 3;) {
         $firstNumber = mt_rand(-5, 50); // first random number
         $secondNumber = mt_rand(-5, 50); // second random number
         $expectedExpression = mt_rand(1, 3); // number of which expression we want
@@ -38,12 +38,8 @@ function startSecondGame()
         } elseif ($userAnswer !== $rightAnswer) {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$userName}!");
-            $wrongCounter++; // count wrong answers
-            $winCounter = 0; // results reset
             return;
         }
-        // line("Total wins " . $winCounter); // total wins
-        // line("Total lose " . $wrongCounter); // total lose
     }
     line("Congratulations, {$userName}!");
 }

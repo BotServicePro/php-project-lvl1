@@ -10,7 +10,7 @@ function startFirstGame()
     global $userName; // global variable which was made in Communications
     $rightAnswer = '';
     line('Answer "yes" if the number is even, otherwise answer "no".');
-    for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
+    for ($winCounter = 0; $winCounter < 3;) {
         $numberForQuestion = rand(1, 50); // random number
         line("Question: {$numberForQuestion}");
         $userAnswer = prompt("Your answer");
@@ -26,12 +26,8 @@ function startFirstGame()
         if ($userAnswer !== $rightAnswer) {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$userName}!");
-            $wrongCounter++; // count wrong answers
-            $winCounter = 0; // results reset
             return;
         }
-        // line("Total wins " . $winCounter); // total wins
-        // line("Total lose " . $wrongCounter); // total lose
     }
     line("Congratulations, {$userName}!");
 }

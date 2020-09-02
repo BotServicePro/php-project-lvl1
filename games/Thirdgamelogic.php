@@ -21,7 +21,7 @@ function startThirdGame()
 {
     global $userName; // global variable which was made in Communications
     line('Enter the greatest common divisor');
-    for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
+    for ($winCounter = 0; $winCounter < 3;) {
         $firstNumber = mt_rand(1, 300); // first random number
         $secondNumber = mt_rand(1, 300); // second random number
 
@@ -43,12 +43,8 @@ function startThirdGame()
         } elseif ($userAnswer !== $rightAnswer) {
             line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$userName}!");
-            $wrongCounter++; // count wrong answers
-            $winCounter = 0; // results reset
             return;
         }
-        // line("Total wins " . $winCounter); // total wins
-        // line("Total lose " . $wrongCounter); // total lose
     }
     line("Congratulations, {$userName}!");
 }
