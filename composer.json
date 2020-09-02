@@ -16,7 +16,7 @@
         "bin/brain-even",
         "bin/gamesFlow",
         "bin/brain-calc",
-        "bin/brain-nod"
+      "bin/brain-gcd"
     ],
     "scripts": {
     "phpcs": "phpcs --standard=PSR12",
