@@ -9,14 +9,12 @@ function startSecondGame()
 {
     global $userName; // global variable which was made in Communications
     $rightAnswer = '';
+    line('What is the result of the expression?');
 
     for ($winCounter = 0, $wrongCounter = 0; $winCounter < 3;) {
-        $firstNumber = rand(-5, 50); // first random number
-        $secondNumber = rand(-5, 50); // second random number
-        $expectedExpression = rand(1, 3); // number of which expression we want
-
-        line('What is the result of the expression?');
-
+        $firstNumber = mt_rand(-5, 50); // first random number
+        $secondNumber = mt_rand(-5, 50); // second random number
+        $expectedExpression = mt_rand(1, 3); // number of which expression we want
         switch ($expectedExpression) {
             case 1:
                 line("Question: {$firstNumber} + {$secondNumber}"); // +
@@ -38,7 +36,7 @@ function startSecondGame()
             line("Correct!");
             $winCounter++;
         } elseif ($userAnswer !== $rightAnswer) {
-            line("{$userAnswer} is wrong answer ;(. Correct answer was '{$rightAnswer}.");
+            line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$userName}!");
             $wrongCounter++; // count wrong answers
             $winCounter = 0; // results reset
