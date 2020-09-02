@@ -15,7 +15,7 @@ function greetings() // greetings and asking username
     line('Please, write number which game you want to play!');
     line('First game - if number is even: 1');
     line('Second game - calculating numbers: 2');
-    // line('Third game, ... : 3');
+    line('Third game - greatest common divisor: 3');
     // line('Fourth game, ... : 4');
     // line('Fifth game, ... : 5');
     line(" ");
