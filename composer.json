@@ -15,7 +15,8 @@
       "bin/brain-games",
         "bin/brain-even",
         "bin/gamesFlow",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-nod"
     ],
     "scripts": {
     "phpcs": "phpcs",
@@ -27,7 +28,8 @@
             "core/Communications.php",
             "core/Engine.php",
             "games/Firstgamelogic.php",
-            "games/Secondgamelogic.php"
+            "games/Secondgamelogic.php",
+            "games/Thirdgamelogic.php"
         ]
     },
     "require-dev": {
