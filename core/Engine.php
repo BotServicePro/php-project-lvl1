@@ -7,8 +7,8 @@ use function php\project\lvl1\Communications\greetings;
 use function php\project\lvl1\Firstgamelogic\startFirstGame;
 use function php\project\lvl1\Secondgamelogic\startSecondGame;
 use function php\project\lvl1\Thirdgamelogic\startThirdGame;
+use function php\project\lvl1\Fourthgamelogic\startFourthGame;
 
-//use function php\project\lvl1\Fourthgamelogic\startFourthGame;
 //use function php\project\lvl1\Fifthgamelogic\startFifthGame;
 
 function run()
@@ -31,7 +31,7 @@ function run()
             break;
         case 4:
             echo "You have chosen fourth game. ";
-            //startFourthGame();
+            startFourthGame();
             break;
         case 5:
             echo "You have chosen fifth game. ";
