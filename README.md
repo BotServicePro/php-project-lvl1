@@ -25,16 +25,16 @@ How to start first game "If number is even":
 <a href="https://asciinema.org/a/357334?autoplay=1"><img src="https://asciinema.org/a/357334.png" width="250"/></a>
 <br>
 <br>
-How to start second game "calculating numbers":
+How to start second game "Calculating numbers":
 <br>
 <a href="https://asciinema.org/a/357335?autoplay=1"><img src="https://asciinema.org/a/357335.png" width="250"/></a>
 <br>
 <br>
-How to start third game "greatest common divisor":
+How to start third game "Greatest common divisor":
 <br>
 <a href="https://asciinema.org/a/357344?autoplay=1"><img src="https://asciinema.org/a/357344.png" width="250"/></a>
 <br>
 <br>
-How to start fourth game "arithmetic progression":
+How to start fourth game "Arithmetic progression":
 <br>
 <a href="https://asciinema.org/a/357403?autoplay=1"><img src="https://asciinema.org/a/357403.png" width="250"/></a>
