@@ -12,12 +12,13 @@
     },
     "license": "MIT",
     "bin": [
-      "bin/brain-games",
+        "bin/brain-games",
         "bin/brain-even",
         "bin/gamesFlow",
         "bin/brain-calc",
-      "bin/brain-gcd",
-        "bin/brain-progression"
+        "bin/brain-gcd",
+        "bin/brain-progression",
+        "bin/brain-prime"
     ],
     "scripts": {
     "phpcs": "phpcs --standard=PSR12",
@@ -31,7 +32,8 @@
             "games/Firstgamelogic.php",
             "games/Secondgamelogic.php",
             "games/Thirdgamelogic.php",
-            "games/Fourthgamelogic.php"
+            "games/Fourthgamelogic.php",
+            "games/Fifthgamelogic.php"
         ]
     },
     "require-dev": {
