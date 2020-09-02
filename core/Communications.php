@@ -17,7 +17,7 @@ function greetings() // greetings and asking username
     line('Second game - calculating numbers: 2');
     line('Third game - greatest common divisor: 3');
     line('Fourth game - arithmetic progression: 4');
-    line('Fifth game, if number is prime : 5');
+    line('Fifth game - if number is prime: 5');
     line(" ");
     return $userName;
 }
