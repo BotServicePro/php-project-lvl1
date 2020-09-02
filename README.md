@@ -38,3 +38,8 @@ How to start third game "Greatest common divisor":
 How to start fourth game "Arithmetic progression":
 <br>
 <a href="https://asciinema.org/a/357403?autoplay=1"><img src="https://asciinema.org/a/357403.png" width="250"/></a>
+<br>
+<br>
+How to start fifth game "If number is prime":
+<br>
+<a href="https://asciinema.org/a/357500?autoplay=1"><img src="https://asciinema.org/a/357500.png" width="250"/></a>
