@@ -5,7 +5,3 @@ logs
 *.cache
 /.idea
 .idea
-/src/
-/bin/brain-games
-
-

@@ -12,7 +12,6 @@
     },
     "license": "MIT",
     "bin": [
-        "bin/brain-games",
         "bin/brain-even",
         "bin/gamesFlow",
         "bin/brain-calc",
@@ -26,7 +25,6 @@
     }, 
     "autoload": {
         "files": [
-            "src/Cli.php",
             "core/Communications.php",
             "core/Engine.php",
             "games/Firstgamelogic.php",
