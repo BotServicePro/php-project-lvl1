@@ -22,24 +22,24 @@ game you want to play.
 <br>
 How to start first game "If number is even":
 <br>
-<a href="https://asciinema.org/a/357334?autoplay=1"><img src="https://asciinema.org/a/357334.png" width="250"/></a>
+<a href="https://asciinema.org/a/357547?autoplay=1"><img src="https://asciinema.org/a/357547.png" width="250"/></a>
 <br>
 <br>
 How to start second game "Calculating numbers":
 <br>
-<a href="https://asciinema.org/a/357335?autoplay=1"><img src="https://asciinema.org/a/357335.png" width="250"/></a>
+<a href="https://asciinema.org/a/357546?autoplay=1"><img src="https://asciinema.org/a/357546.png" width="250"/></a>
 <br>
 <br>
 How to start third game "Greatest common divisor":
 <br>
-<a href="https://asciinema.org/a/357344?autoplay=1"><img src="https://asciinema.org/a/357344.png" width="250"/></a>
+<a href="https://asciinema.org/a/357548?autoplay=1"><img src="https://asciinema.org/a/357548.png" width="250"/></a>
 <br>
 <br>
 How to start fourth game "Arithmetic progression":
 <br>
-<a href="https://asciinema.org/a/357403?autoplay=1"><img src="https://asciinema.org/a/357403.png" width="250"/></a>
+<a href="https://asciinema.org/a/357550?autoplay=1"><img src="https://asciinema.org/a/357550.png" width="250"/></a>
 <br>
 <br>
 How to start fifth game "If number is prime":
 <br>
-<a href="https://asciinema.org/a/357500?autoplay=1"><img src="https://asciinema.org/a/357500.png" width="250"/></a>
+<a href="https://asciinema.org/a/357549?autoplay=1"><img src="https://asciinema.org/a/357549.png" width="250"/></a>
