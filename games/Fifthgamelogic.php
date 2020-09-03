@@ -47,12 +47,12 @@ function startFifthGame()
         line("{$numberForUser}");
         $rightAnswer = in_array($numberForUser, $primeArray); // true or false
         $userAnswer =  prompt("Your answer");
+
         if ($userAnswer === 'yes') {
             $userAnswer = true;
-        } else {
+        } elseif ($userAnswer === 'no') {
             $userAnswer = false;
         }
-
         if ($userAnswer === $rightAnswer) { // if even, without remainder
             line("Correct!");
             $winCounter++;
