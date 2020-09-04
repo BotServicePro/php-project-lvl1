@@ -3,7 +3,7 @@
 ![PHP Composer](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20Composer/badge.svg)
 <br>
 <br>
-Brain Games is my first project from Hexlet. It contains 5 console games.
+Brain Games is my first project from Hexlet! It contains 5 console games.
 <br>
 <br>
 How to install globally:
@@ -13,7 +13,7 @@ How to install globally:
 <br>
 To start this project we have 2 ways. First - run games separately from each other by 
 <br>
-calling "brain-even", "brain-calc", "brain-nod", "brain-progression" files.
+calling "brain-calc", "brain-even", "brain-gcd", "brain-prime", "brain-progression" files.
 <br>
 Second - start one controller file "gamesFlow" which gives you possibility to choese
 <br>
