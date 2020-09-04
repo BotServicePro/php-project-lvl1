@@ -15,31 +15,31 @@ To start this project we have 2 ways. First - run games separately from each oth
 <br>
 calling "brain-calc", "brain-even", "brain-gcd", "brain-prime", "brain-progression" files.
 <br>
-Second - start one controller file "gamesFlow" which gives you possibility to choese
+Second - start one controller file "allGames" which gives you possibility to choese
 <br>
 game you want to play.
 <br>
 <br>
-How to start first game "If number is even":
+How to start the game "If number is even":
 <br>
 <a href="https://asciinema.org/a/357547?autoplay=1"><img src="https://asciinema.org/a/357547.png" width="250"/></a>
 <br>
 <br>
-How to start second game "Calculating numbers":
+How to start the game "Calculating numbers":
 <br>
 <a href="https://asciinema.org/a/357546?autoplay=1"><img src="https://asciinema.org/a/357546.png" width="250"/></a>
 <br>
 <br>
-How to start third game "Greatest common divisor":
+How to start the game "Greatest common divisor":
 <br>
 <a href="https://asciinema.org/a/357548?autoplay=1"><img src="https://asciinema.org/a/357548.png" width="250"/></a>
 <br>
 <br>
-How to start fourth game "Arithmetic progression":
+How to start the game "Arithmetic progression":
 <br>
 <a href="https://asciinema.org/a/357550?autoplay=1"><img src="https://asciinema.org/a/357550.png" width="250"/></a>
 <br>
 <br>
-How to start fifth game "If number dddddddis prime":
+How to start the game "If number is prime":
 <br>
 <a href="https://asciinema.org/a/357549?autoplay=1"><img src="https://asciinema.org/a/357549.png" width="250"/></a>
