@@ -17,7 +17,7 @@ To start this project we have 2 ways:
 <br>
 calling in console "<i>brain-calc</i>", "<i>brain-even</i>", "<i>brain-gcd</i>", "<i>brain-prime</i>", "<i>brain-progression</i>" files.
 <br>
-<b>Second</b> - start one controller file "allGames" which gives you possibility to choese
+<b>Second</b> - start one controller file in console "<i>allGames</i>" which gives you possibility to choese
 <br>
 game you want to play.
 <br>
