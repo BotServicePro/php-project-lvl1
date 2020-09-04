@@ -1,6 +1,6 @@
 <?php
 
-namespace php\project\lvl1\Communications;
+namespace braingames\Communications;
 
 use function cli\line;
 use function cli\prompt;

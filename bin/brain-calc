@@ -10,7 +10,5 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function php\project\lvl1\Secondgamelogic\startSecondGame;
-use function php\project\lvl1\Communications\askingName;
-askingName();
-startSecondGame();
+use function braingames\games\Calculator\startCalculator;
+startCalculator();

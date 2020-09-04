@@ -1,5 +1,5 @@
 {
-    "name": "alexdestebekou/php-project-lvl1",
+    "name": "alexdestebekou/braingames",
     "description": "Brain-games is first project from Hexlet by Alexander Karakin!",
     "authors": [
         {
@@ -13,7 +13,7 @@
     "license": "MIT",
     "bin": [
         "bin/brain-even",
-        "bin/gamesFlow",
+        "bin/allGames",
         "bin/brain-calc",
         "bin/brain-gcd",
         "bin/brain-progression",
@@ -25,13 +25,14 @@
     }, 
     "autoload": {
         "files": [
-            "core/Communications.php",
-            "core/Engine.php",
-            "games/Firstgamelogic.php",
-            "games/Secondgamelogic.php",
-            "games/Thirdgamelogic.php",
-            "games/Fourthgamelogic.php",
-            "games/Fifthgamelogic.php"
+            "Communications.php",
+            "Engine.php",
+            "scr/games/Even.php",
+            "scr/games/Calculator.php",
+            "scr/games/Gcd.php",
+            "scr/games/Progression.php",
+            "scr/games/Prime.php",
+            "scr/GameSwitcher.php"
         ]
     },
     "require-dev": {
