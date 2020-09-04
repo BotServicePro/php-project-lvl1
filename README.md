@@ -8,7 +8,7 @@ Brain Games is my first project from Hexlet! It contains 5 console games.
 <br>
 How to install globally:
 <br>
-<a href="https://asciinema.org/a/357333?autoplay=1"><img src="https://asciinema.org/a/357333.png" width="250"/></a>
+<a href="https://asciinema.org/a/357779?autoplay=1"><img src="https://asciinema.org/a/357779.png" width="250"/></a>
 <br>
 <br>
 To start this project we have 2 ways. First - run games separately from each other by 
