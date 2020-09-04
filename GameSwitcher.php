@@ -13,11 +13,11 @@ use function braingames\games\Progression\startProgression;
 function startChoese()
 {
     line('Please enter the game number you want to play!');
-    line('First game - Calculating numbers: 1');
-    line('Second game - If number is even: 2');
-    line('Third game - Greatest common divisor: 3');
-    line('Fourth game - If number is prime: 4');
-    line('Fifth game - Arithmetic progression: 5');
+    line('Calculating numbers: 1');
+    line('If number is even: 2');
+    line('Greatest common divisor: 3');
+    line('If number is prime: 4');
+    line('Arithmetic progression: 5');
     $gameNumber = (int) prompt('Number');
 
     if ($gameNumber === 1) {
