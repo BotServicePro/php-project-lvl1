@@ -32,7 +32,7 @@
             "scr/games/Gcd.php",
             "scr/games/Progression.php",
             "scr/games/Prime.php",
-            "scr/GameSwitcher.php"
+            "GameSwitcher.php"
         ]
     },
     "require-dev": {
