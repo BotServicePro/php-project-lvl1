@@ -15,7 +15,7 @@ To start this project we have 2 ways:
 <br>
 <b>First</b> - run games separately from each other by 
 <br>
-calling "brain-calc", "brain-even", "brain-gcd", "brain-prime", "brain-progression" files.
+calling in console "brain-calc", "brain-even", "brain-gcd", "brain-prime", "brain-progression" files.
 <br>
 <b>Second</b> - start one controller file "allGames" which gives you possibility to choese
 <br>
