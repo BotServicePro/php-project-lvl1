@@ -11,11 +11,13 @@ How to install globally:
 <a href="https://asciinema.org/a/357779?autoplay=1"><img src="https://asciinema.org/a/357779.png" width="250"/></a>
 <br>
 <br>
-To start this project we have 2 ways. First - run games separately from each other by 
+To start this project we have 2 ways: 
+<br>
+<b>First</b> - run games separately from each other by 
 <br>
 calling "brain-calc", "brain-even", "brain-gcd", "brain-prime", "brain-progression" files.
 <br>
-Second - start one controller file "allGames" which gives you possibility to choese
+<b>Second</b> - start one controller file "allGames" which gives you possibility to choese
 <br>
 game you want to play.
 <br>
