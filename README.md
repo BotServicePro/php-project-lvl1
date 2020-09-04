@@ -40,6 +40,6 @@ How to start fourth game "Arithmetic progression":
 <a href="https://asciinema.org/a/357550?autoplay=1"><img src="https://asciinema.org/a/357550.png" width="250"/></a>
 <br>
 <br>
-How to start fifth game "If number is prime":
+How to start fifth game "If number dddddddis prime":
 <br>
 <a href="https://asciinema.org/a/357549?autoplay=1"><img src="https://asciinema.org/a/357549.png" width="250"/></a>
