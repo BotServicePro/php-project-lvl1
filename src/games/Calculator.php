@@ -7,7 +7,7 @@ use function braingames\Engine\totalRounds;
 
 /**
  * Game module Calculator.php
- * Contains -, +, * expressions which should be calculated by  user
+ * Contains -, +, * expressions which should be calculated by user
  */
 function countPlus($first_number, $second_number) // +
 {
