@@ -1,6 +1,6 @@
 <?php
 
-namespace Braingames\Engine;
+namespace braingames\Engine;
 
 use function cli\line;
 use function cli\prompt;

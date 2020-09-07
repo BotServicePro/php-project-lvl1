@@ -1,9 +1,9 @@
 <?php
 
-namespace Braingames\games\Gcd;
+namespace braingames\games\Gcd;
 
-use function Braingames\Engine\run;
-use function Braingames\Engine\totalRounds;
+use function braingames\Engine\run;
+use function braingames\Engine\totalRounds;
 
 /**
  * Game module Gcd.php
