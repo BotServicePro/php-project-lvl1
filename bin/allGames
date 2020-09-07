@@ -10,5 +10,5 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function braingames\GameSwitcher\gameChoese;
+use function brain\games\GameSwitcher\gameChoese;
 gameChoese();
