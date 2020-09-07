@@ -1,6 +1,6 @@
 {
     "name": "alexdestebekou/php-project-lvl1",
-    "description": "Brain games is first project from hexlet by Alexander Karakin!",
+    "description": "Brain games is first project from Hexlet by Alexander Karakin!",
     "authors": [
         {
             "name": "Alexander Karakin",
@@ -8,8 +8,7 @@
         }
     ],
     "require": {
-        "wp-cli/php-cli-tools": "^0.11.11",
-        "": ""
+        "wp-cli/php-cli-tools": "^0.11.11"
     },
     "license": "MIT",
     "bin": [
@@ -21,18 +20,18 @@
         "bin/brain-prime"
     ],
     "scripts": {
-    "phpcs": "phpcs --standard=PSR12",
-    "test": "phpunit tests"
-    }, 
+        "phpcs": "phpcs --standard=PSR12",
+        "test": "phpunit tests"
+    },
     "autoload": {
         "files": [
-          "src/games/Engine.php",
-          "src/games/Even.php",
-          "src/games/Calculator.php",
-          "src/games/Gcd.php",
-          "src/games/Progression.php",
-          "src/games/Prime.php",
-          "src/games/GameSwitcher.php"
+            "Engine.php",
+            "scr/games/Even.php",
+            "scr/games/Calculator.php",
+            "scr/games/Gcd.php",
+            "scr/games/Progression.php",
+            "scr/games/Prime.php",
+            "GameSwitcher.php"
         ]
     },
     "require-dev": {
