@@ -3,7 +3,7 @@
 ![PHP Composer](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20Composer/badge.svg)
 <br>
 <br>
-Brain-Games is my first project from Hexlet! It contains 5 console games.
+Brain Games is my first project from Hexlet! It contains 5 console games.
 <br>
 <br>
 How to install globally:
