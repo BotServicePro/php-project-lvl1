@@ -2,8 +2,8 @@
 
 namespace braingames\games\Even;
 
-use function braingames\Engine\run;
-use function braingames\Engine\totalRounds;
+use function braingames\games\Engine\run;
+use function braingames\games\Engine\totalRounds;
 
 /**
  * Game module Even.php

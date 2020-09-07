@@ -1,6 +1,6 @@
 <?php
 
-namespace braingames\GameSwitcher;
+namespace braingames\games\GameSwitcher;
 
 use function cli\line;
 use function cli\prompt;

@@ -1,5 +1,5 @@
 {
-    "name": "alexdestebekou/php-project-lvl1",
+    "name": "alexdestebekou/braingames",
     "description": "Brain games is first project from Hexlet by Alexander Karakin!",
     "authors": [
         {
@@ -25,13 +25,13 @@
     },
     "autoload": {
         "files": [
-            "Engine.php",
+            "src/games/Engine.php",
             "scr/games/Even.php",
             "scr/games/Calculator.php",
             "scr/games/Gcd.php",
             "scr/games/Progression.php",
             "scr/games/Prime.php",
-            "GameSwitcher.php"
+            "src/games/GameSwitcher.php"
         ]
     },
     "require-dev": {
