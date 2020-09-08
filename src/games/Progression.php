@@ -1,9 +1,9 @@
 <?php
 
-namespace braingames\games\Progression;
+namespace BrainGames\games\Progression;
 
-use function braingames\games\Engine\run;
-use function braingames\games\Engine\totalRounds;
+use function BrainGames\games\Engine\run;
+use function BrainGames\games\Engine\totalRounds;
 
 /**
  * Game module Prime.php
