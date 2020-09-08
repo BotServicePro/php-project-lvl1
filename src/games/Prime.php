@@ -1,9 +1,9 @@
 <?php
 
-namespace php\project\lvl1\games\Prime;
+namespace braingames\games\Prime;
 
-use function php\project\lvl1\games\Engine\run;
-use function php\project\lvl1\games\Engine\totalRounds;
+use function braingames\games\Engine\run;
+use function braingames\games\Engine\totalRounds;
 
 /**
  * Game module Prime.php

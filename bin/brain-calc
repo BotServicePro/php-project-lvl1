@@ -10,6 +10,6 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function php\project\lvl1\games\Calculator\startCalculator;
+use function braingames\games\Calculator\startCalculator;
 
 startCalculator();

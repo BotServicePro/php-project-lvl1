@@ -1,9 +1,9 @@
 <?php
 
-namespace php\project\lvl1\games\Calculator;
+namespace braingames\games\Calculator;
 
-use function php\project\lvl1\games\Engine\run;
-use function php\project\lvl1\games\Engine\totalRounds;
+use function braingames\games\Engine\run;
+use function braingames\games\Engine\totalRounds;
 
 /**
  * Game module Calculator.php
