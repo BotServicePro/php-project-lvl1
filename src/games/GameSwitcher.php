@@ -1,14 +1,14 @@
 <?php
 
-namespace braingames\games\GameSwitcher;
+namespace php\project\lvl1\games\GameSwitcher;
 
 use function cli\line;
 use function cli\prompt;
-use function braingames\games\Calculator\startCalculator;
-use function braingames\games\Even\startEven;
-use function braingames\games\Gcd\startGcd;
-use function braingames\games\Prime\startPrime;
-use function braingames\games\Progression\startProgression;
+use function php\project\lvl1\games\Calculator\startCalculator;
+use function php\project\lvl1\games\Even\startEven;
+use function php\project\lvl1\games\Gcd\startGcd;
+use function php\project\lvl1\games\Prime\startPrime;
+use function php\project\lvl1\games\Progression\startProgression;
 
 /**
  * Module GameSwitcher.php

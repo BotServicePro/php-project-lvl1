@@ -1,9 +1,9 @@
 <?php
 
-namespace braingames\games\Even;
+namespace php\project\lvl1\games\Even;
 
-use function braingames\games\Engine\run;
-use function braingames\games\Engine\totalRounds;
+use function php\project\lvl1\games\Engine\run;
+use function php\project\lvl1\games\Engine\totalRounds;
 
 /**
  * Game module Even.php
