@@ -25,7 +25,6 @@ function gameChoese()
         ['If number is prime: 4', 4],
         ['Arithmetic progression: 5', 5],
         ];
-    print_r($game_names_array[0][1]);
     foreach ($game_names_array as [$description , $game_number]) {
         print_r($description . "\n");
     }
