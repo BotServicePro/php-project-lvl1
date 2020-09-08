@@ -5,13 +5,10 @@ namespace BrainGames\games\Progression;
 use function BrainGames\games\Engine\run;
 use function BrainGames\games\Engine\totalRounds;
 
-/**
- * Game module Prime.php
- * User should enter the missing number of progression
- */
+const PROGDESCRIPTION = 'Write the missing number';
+
 function startProgression()
 {
-    $game_description = 'Write the missing number';
     $expressions_and_answers = [];
 
     for ($i = 0; $i < totalRounds(); $i++) {
@@ -31,5 +28,5 @@ function startProgression()
         $right_answer = $numbers_array[$random_index_of_hidden_number];
         $expressions_and_answers [] = array("{$number_for_user}", (string) $right_answer);
     }
-    run($game_description, $expressions_and_answers);
+    run(PROGDESCRIPTION, $expressions_and_answers);
 }

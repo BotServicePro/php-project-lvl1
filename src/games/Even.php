@@ -5,14 +5,10 @@ namespace BrainGames\games\Even;
 use function BrainGames\games\Engine\run;
 use function BrainGames\games\Engine\totalRounds;
 
-/**
- * Game module Even.php
- * User should answer "yes" if number is even, "no" if number is not even
- */
+const EVENDESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".';
 
 function startEven()
 {
-    $game_description = 'Answer "yes" if the number is even, otherwise answer "no".';
     $expressions_and_answers = [];
 
     for ($i = 0; $i < totalRounds(); $i++) {
@@ -25,5 +21,5 @@ function startEven()
         }
         $expressions_and_answers [] = array($number_for_question, (string) $right_answer);
     }
-    run($game_description, $expressions_and_answers);
+    run(EVENDESCRIPTION, $expressions_and_answers);
 }

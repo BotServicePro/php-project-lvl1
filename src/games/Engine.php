@@ -5,9 +5,6 @@ namespace BrainGames\games\Engine;
 use function cli\line;
 use function cli\prompt;
 
-/**
- * Main game core Engine.php
- */
 function totalRounds()
 {
     $rounds = 3;

@@ -5,10 +5,8 @@ namespace BrainGames\games\Prime;
 use function BrainGames\games\Engine\run;
 use function BrainGames\games\Engine\totalRounds;
 
-/**
- * Game module Prime.php
- * User should answer "yes" if number is prime, "no" if number is not prime
- */
+const PRIMEDESCRIPTION = 'Is this number is prime?';
+
 function isPrime($number)
 {
     if ($number == 2) {
@@ -41,7 +39,6 @@ function getPrimes($maxNumber)
 
 function startPrime()
 {
-    $game_description = 'Is this number is prime?';
     $expressions_and_answers = [];
     $prime_array = getPrimes(500);
 
@@ -55,5 +52,5 @@ function startPrime()
         }
         $expressions_and_answers [] = array("$number_for_user", (string) $right_answer);
     }
-    run($game_description, $expressions_and_answers);
+    run(PRIMEDESCRIPTION, $expressions_and_answers);
 }

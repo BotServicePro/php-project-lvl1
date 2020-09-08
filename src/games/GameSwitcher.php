@@ -10,11 +10,6 @@ use function BrainGames\games\Gcd\startGcd;
 use function BrainGames\games\Prime\startPrime;
 use function BrainGames\games\Progression\startProgression;
 
-/**
- * Module GameSwitcher.php
- * Allows user to choese game he want to play
- */
-
 function gameChoese()
 {
     line('Please enter the game number you want to play!');

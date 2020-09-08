@@ -5,10 +5,8 @@ namespace BrainGames\games\Calculator;
 use function BrainGames\games\Engine\run;
 use function BrainGames\games\Engine\totalRounds;
 
-/**
- * Game module Calculator.php
- * Contains -, +, * expressions which should be calculated by  user
- */
+const CALCDESCRIPTION = "What is the result of the expression?";
+
 function countPlus($first_number, $second_number) // +
 {
     return $first_number + $second_number;
@@ -26,7 +24,6 @@ function countMultiply($first_number, $second_number) // *
 
 function startCalculator()
 {
-    $game_description = 'What is the result of the expression?';
     $expressions_and_answers = [];
     for ($i = 0; $i < totalRounds(); $i++) {
         $first_number = mt_rand(1, 15); // first random number
@@ -55,5 +52,5 @@ function startCalculator()
         }
         $expressions_and_answers [] =  array($expression, (string) $right_answer);
     }
-    run($game_description, $expressions_and_answers);
+    run(CALCDESCRIPTION, $expressions_and_answers);
 }
