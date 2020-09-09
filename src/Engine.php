@@ -12,14 +12,14 @@ function totalRounds()
     return ROUNDS;
 }
 
-function run($gameDescription, $expressionsAndAnswers)
+function run($description, $data)
 {
     line("Welcome to the Brain Games!");
     $userName = prompt('May I have your name?');
     line("Hello, {$userName}!");
 
-    foreach ($expressionsAndAnswers as [$expression, $rightAnswer]) {
-        line("{$gameDescription}");
+    foreach ($data as [$expression, $rightAnswer]) {
+        line("{$description}");
         line($expression);
         //print_r('Подсказка = ' . $rightAnswer);
         $useAnswer = prompt("Your answer");
