@@ -7,7 +7,7 @@ use function BrainGames\Engine\totalRounds;
 
 const CALCDESCRIPTION = "What is the result of the expression?";
 
-function counter($expressionType, $firstNumber, $secondNumber)
+function calc($expressionType, $firstNumber, $secondNumber)
 {
     switch ($expressionType) {
         case "+":
@@ -35,7 +35,7 @@ function startCalculator()
         $tempExpressionType = $tempExpressionType[0];
         $expressionsAndAnswers [] = [
             "{$firstNumber} {$tempExpressionType} {$secondNumber}",
-            (string) counter($tempExpressionType, $firstNumber, $secondNumber)
+            (string) calc($tempExpressionType, $firstNumber, $secondNumber)
         ];
     }
     run(CALCDESCRIPTION, $expressionsAndAnswers);
