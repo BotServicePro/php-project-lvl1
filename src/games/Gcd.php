@@ -2,8 +2,8 @@
 
 namespace BrainGames\games\Gcd;
 
-use function BrainGames\games\Engine\run;
-use function BrainGames\games\Engine\totalRounds;
+use function BrainGames\Engine\run;
+use function BrainGames\Engine\totalRounds;
 
 const GCDDESCRIPTION = 'Write the greatest common divisor of this numbers';
 

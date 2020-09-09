@@ -2,8 +2,8 @@
 
 namespace BrainGames\games\Prime;
 
-use function BrainGames\games\Engine\run;
-use function BrainGames\games\Engine\totalRounds;
+use function BrainGames\Engine\run;
+use function BrainGames\Engine\totalRounds;
 
 const PRIMEDESCRIPTION = 'Is this number is prime?';
 

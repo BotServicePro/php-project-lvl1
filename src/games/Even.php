@@ -2,8 +2,8 @@
 
 namespace BrainGames\games\Even;
 
-use function BrainGames\games\Engine\run;
-use function BrainGames\games\Engine\totalRounds;
+use function BrainGames\Engine\run;
+use function BrainGames\Engine\totalRounds;
 
 const EVENDESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".';
 

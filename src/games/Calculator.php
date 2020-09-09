@@ -2,8 +2,8 @@
 
 namespace BrainGames\games\Calculator;
 
-use function BrainGames\games\Engine\run;
-use function BrainGames\games\Engine\totalRounds;
+use function BrainGames\Engine\run;
+use function BrainGames\Engine\totalRounds;
 
 const CALCDESCRIPTION = "What is the result of the expression?";
 
