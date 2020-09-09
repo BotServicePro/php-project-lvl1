@@ -18,16 +18,16 @@ function run($description, $data)
     $userName = prompt('May I have your name?');
     line("Hello, {$userName}!");
 
-    foreach ($data as [$expression, $rightAnswer]) {
+    foreach ($data as [$qestion, $correctAnswer]) {
         line("{$description}");
-        line($expression);
+        line($qestion);
         //print_r('Подсказка = ' . $rightAnswer);
         $useAnswer = prompt("Your answer");
 
-        if ($useAnswer === $rightAnswer) { // if even, without remainder
+        if ($useAnswer === $correctAnswer) { // if even, without remainder
             line("Correct!");
-        } elseif ($useAnswer !== $rightAnswer) {
-            line("'{$useAnswer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
+        } elseif ($useAnswer !== $correctAnswer) {
+            line("'{$useAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
             line("Let's try again, {$userName}!");
             return;
         }
