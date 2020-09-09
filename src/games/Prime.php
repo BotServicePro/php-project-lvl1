@@ -16,8 +16,8 @@ function isPrime($number)
         return false;
     }
     $i = 3;
-    $max_factor = (int) sqrt($number);
-    while ($i <= $max_factor) {
+    $maxFactor = (int) sqrt($number);
+    while ($i <= $maxFactor) {
         if ($number % $i == 0) {
             return false;
         }
@@ -39,18 +39,18 @@ function getPrimes($maxNumber)
 
 function startPrime()
 {
-    $expressions_and_answers = [];
-    $prime_array = getPrimes(500);
+    $expressionsAndAnswers = [];
+    $primeArray = getPrimes(500);
 
     for ($i = 0; $i < totalRounds(); $i++) {
-        $number_for_user = mt_rand(1, 500); // number shows to user
-        $right_answer = in_array($number_for_user, $prime_array); // true or false answer
-        if ($right_answer === true) {
-            $right_answer = 'yes';
-        } elseif ($right_answer === false) {
-            $right_answer = 'no';
+        $numberForUser = mt_rand(1, 500); // number shows to user
+        $rightAnswer = in_array($numberForUser, $primeArray); // true or false answer
+        if ($rightAnswer === true) {
+            $rightAnswer = 'yes';
+        } elseif ($rightAnswer === false) {
+            $rightAnswer = 'no';
         }
-        $expressions_and_answers [] = array("$number_for_user", (string) $right_answer);
+        $expressionsAndAnswers [] = array("$numberForUser", (string) $rightAnswer);
     }
-    run(PRIMEDESCRIPTION, $expressions_and_answers);
+    run(PRIMEDESCRIPTION, $expressionsAndAnswers);
 }

@@ -7,50 +7,50 @@ use function BrainGames\Engine\totalRounds;
 
 const CALCDESCRIPTION = "What is the result of the expression?";
 
-function countPlus($first_number, $second_number) // +
+function countPlus($firstNumber, $secondNumber) // +
 {
-    return $first_number + $second_number;
+    return $firstNumber + $secondNumber;
 }
 
-function countMinus($first_number, $second_number) // -
+function countMinus($firstNumber, $secondNumber) // -
 {
-    return $first_number - $second_number;
+    return $firstNumber - $secondNumber;
 }
 
-function countMultiply($first_number, $second_number) // *
+function countMultiply($firstNumber, $secondNumber) // *
 {
-    return $first_number * $second_number;
+    return $firstNumber * $secondNumber;
 }
 
 function startCalculator()
 {
-    $expressions_and_answers = [];
+    $expressionsAndAnswers = [];
     for ($i = 0; $i < totalRounds(); $i++) {
-        $first_number = mt_rand(1, 15); // first random number
-        $second_number = mt_rand(1, 15); // second random number
+        $firstNumber = mt_rand(1, 15); // first random number
+        $secondNumber = mt_rand(1, 15); // second random number
         $expression = '';
-        $right_answer = '';
-        $expressions_type_array = [
+        $rightAnswer = '';
+        $expressionsTypeArray = [
             ["-"],
             ["+"],
             ["*"],
         ];
 
-        switch (array_rand($expressions_type_array)) {
+        switch (array_rand($expressionsTypeArray)) {
             case 0:
-                $right_answer = countMinus($first_number, $second_number);
-                $expression = "{$first_number} - {$second_number}";
+                $rightAnswer = countMinus($firstNumber, $secondNumber);
+                $expression = "{$firstNumber} - {$secondNumber}";
                 break;
             case 1:
-                $right_answer = countPlus($first_number, $second_number);
-                $expression = "{$first_number} + {$second_number}";
+                $rightAnswer = countPlus($firstNumber, $secondNumber);
+                $expression = "{$firstNumber} + {$secondNumber}";
                 break;
             case 2:
-                $right_answer = countMultiply($first_number, $second_number);
-                $expression = "{$first_number} * {$second_number}";
+                $rightAnswer = countMultiply($firstNumber, $secondNumber);
+                $expression = "{$firstNumber} * {$secondNumber}";
                 break;
         }
-        $expressions_and_answers [] =  array($expression, (string) $right_answer);
+        $expressionsAndAnswers [] =  array($expression, (string) $rightAnswer);
     }
-    run(CALCDESCRIPTION, $expressions_and_answers);
+    run(CALCDESCRIPTION, $expressionsAndAnswers);
 }

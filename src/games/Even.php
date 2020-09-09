@@ -9,17 +9,17 @@ const EVENDESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "
 
 function startEven()
 {
-    $expressions_and_answers = [];
+    $expressionsAndAnswers = [];
 
     for ($i = 0; $i < totalRounds(); $i++) {
-        $number_for_question = rand(1, 50); // random number
-        $right_answer = '';
-        if ($number_for_question % 2 === 0) { // if even, without remainder
-            $right_answer = 'yes';
-        } elseif ($number_for_question % 2 !== 0) {
-            $right_answer = 'no';
+        $numberForQuestion = rand(1, 50); // random number
+        $rightAnswer = '';
+        if ($numberForQuestion % 2 === 0) { // if even, without remainder
+            $rightAnswer = 'yes';
+        } elseif ($numberForQuestion % 2 !== 0) {
+            $rightAnswer = 'no';
         }
-        $expressions_and_answers [] = array($number_for_question, (string) $right_answer);
+        $expressionsAndAnswers [] = array($numberForQuestion, (string) $rightAnswer);
     }
-    run(EVENDESCRIPTION, $expressions_and_answers);
+    run(EVENDESCRIPTION, $expressionsAndAnswers);
 }
