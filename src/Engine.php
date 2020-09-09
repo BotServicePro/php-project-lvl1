@@ -5,11 +5,13 @@ namespace BrainGames\Engine;
 use function cli\line;
 use function cli\prompt;
 
+const ROUNDS = 3;
+
 function totalRounds()
 {
-    $rounds = 3;
-    return $rounds;
+    return ROUNDS;
 }
+
 
 function run($game_description, $expressions_and_answers)
 {
