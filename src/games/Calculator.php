@@ -33,10 +33,11 @@ function startCalculator()
         $tempExpressionType = $expressionsTypeArray
         [array_rand($expressionsTypeArray, 1)]; // temp symbol
         $tempExpressionType = $tempExpressionType[0];
-        $expressionsAndAnswers [] = [
-            "{$firstNumber} {$tempExpressionType} {$secondNumber}",
-            (string) rightAnswerCalculator($tempExpressionType, $firstNumber, $secondNumber)
-        ];
+
+
+        $expression = "{$firstNumber} {$tempExpressionType} {$secondNumber}";
+        $correctAnswer = (string) rightAnswerCalculator($tempExpressionType, $firstNumber, $secondNumber);
+        $expressionsAndAnswers [] = [$expression, $correctAnswer];
     }
     run(CALCDESCRIPTION, $expressionsAndAnswers);
 }
