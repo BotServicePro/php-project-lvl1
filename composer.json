@@ -26,12 +26,12 @@
     "autoload": {
         "files": [
             "src/games/Even.php",
-            "src/games/Engine.php",
+            "src/Engine.php",
             "src/games/Calculator.php",
             "src/games/Gcd.php",
             "src/games/Progression.php",
             "src/games/Prime.php",
-            "src/games/GameSwitcher.php"
+            "src/GameSwitcher.php"
         ]
     },
     "require-dev": {
