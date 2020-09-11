@@ -4,7 +4,7 @@ namespace BrainGames\games\Gcd;
 
 use function BrainGames\Engine\run;
 
-use const BrainGames\Engine\ROUNDS;
+use const BrainGames\Engine\ROUNDSAMOUNT;
 
 const DESCRIPTION = 'Write the greatest common divisor of this numbers';
 
@@ -24,7 +24,7 @@ function runGame()
 {
     $gameData = [];
 
-    for ($i = 0; $i < ROUNDS; $i++) {
+    for ($i = 0; $i < ROUNDSAMOUNT; $i++) {
         $firstNumber = mt_rand(1, 300); // first random number
         $secondNumber = mt_rand(1, 300); // second random number
         $rightAnswer = nodCalculator($firstNumber, $secondNumber);
