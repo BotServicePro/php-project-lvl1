@@ -16,7 +16,6 @@ function run($description, $gameData)
     foreach ($gameData as [$question, $correctAnswer]) {
         line("{$description}");
         line($question);
-        //print_r('Подсказка = ' . $rightAnswer);
         $userAnswer = prompt("Your answer");
         if ($userAnswer !== $correctAnswer) {
             line("'$userAnswer' is wrong answer ;(. Correct answer was '$correctAnswer'.");
