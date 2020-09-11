@@ -6,7 +6,7 @@ use function BrainGames\Engine\run;
 
 use const BrainGames\Engine\ROUNDSAMOUNT;
 
-const DESCRIPTION = 'Is this number is prime?';
+const DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 function isPrime($number)
 {
