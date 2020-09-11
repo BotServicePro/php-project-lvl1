@@ -23,7 +23,7 @@ function gameSwitcher()
     foreach ($gameNames as $description) {
         print_r($description . "\n");
     }
-    $userAnswer = (int) prompt('Write the game name');
+    $userAnswer = (int) prompt('Write the game number');
 
     switch ($userAnswer) {
         case '1':
