@@ -10,7 +10,7 @@ const DESCRIPTION = 'Write the missing number';
 
 function runGame()
 {
-    $expressionsAndAnswers = [];
+    $gameData = [];
 
     for ($i = 0; $i < ROUNDS; $i++) {
         $startingNumber = mt_rand(1, 5000);
@@ -27,7 +27,7 @@ function runGame()
             $numberForUser .= "{$item} ";
         }
         $rightAnswer = $numbersArray[$randomIndexOfHiddenNumber];
-        $expressionsAndAnswers [] = array("{$numberForUser}", (string) $rightAnswer);
+        $gameData [] = array("{$numberForUser}", (string) $rightAnswer);
     }
-    run(DESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $gameData);
 }

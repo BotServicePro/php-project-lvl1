@@ -40,7 +40,7 @@ function getPrimes($maxNumber)
 
 function runGame()
 {
-    $expressionsAndAnswers = [];
+    $gameData = [];
     $primeArray = getPrimes(500);
 
     for ($i = 0; $i < ROUNDS; $i++) {
@@ -51,7 +51,7 @@ function runGame()
         } elseif ($rightAnswer === false) {
             $rightAnswer = 'no';
         }
-        $expressionsAndAnswers [] = array("$numberForUser", (string) $rightAnswer);
+        $gameData [] = array("$numberForUser", (string) $rightAnswer);
     }
-    run(DESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $gameData);
 }

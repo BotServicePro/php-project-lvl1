@@ -22,13 +22,13 @@ function nodCalculator($firstNumber, $secondNumber) // nod number calculator
 
 function runGame()
 {
-    $expressionsAndAnswers = [];
+    $gameData = [];
 
     for ($i = 0; $i < ROUNDS; $i++) {
         $firstNumber = mt_rand(1, 300); // first random number
         $secondNumber = mt_rand(1, 300); // second random number
         $rightAnswer = nodCalculator($firstNumber, $secondNumber);
-        $expressionsAndAnswers [] = array("Numbers {$firstNumber} and {$secondNumber}", (string) $rightAnswer);
+        $gameData [] = array("Numbers {$firstNumber} and {$secondNumber}", (string) $rightAnswer);
     }
-    run(DESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $gameData);
 }

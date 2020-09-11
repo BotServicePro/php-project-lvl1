@@ -10,7 +10,7 @@ const DESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".
 
 function runGame()
 {
-    $expressionsAndAnswers = [];
+    $gameData = [];
 
     for ($i = 0; $i < ROUNDS; $i++) {
         $numberForQuestion = rand(1, 50); // random number
@@ -20,7 +20,7 @@ function runGame()
         } elseif ($numberForQuestion % 2 !== 0) {
             $rightAnswer = 'no';
         }
-        $expressionsAndAnswers [] = array($numberForQuestion, (string) $rightAnswer);
+        $gameData [] = array($numberForQuestion, (string) $rightAnswer);
     }
-    run(DESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $gameData);
 }
