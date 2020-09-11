@@ -3,9 +3,10 @@
 namespace BrainGames\games\Gcd;
 
 use function BrainGames\Engine\run;
+
 use const BrainGames\Engine\ROUNDS;
 
-const GCDDESCRIPTION = 'Write the greatest common divisor of this numbers';
+const DESCRIPTION = 'Write the greatest common divisor of this numbers';
 
 function nodCalculator($firstNumber, $secondNumber) // nod number calculator
 {
@@ -29,5 +30,5 @@ function startGcd()
         $rightAnswer = nodCalculator($firstNumber, $secondNumber);
         $expressionsAndAnswers [] = array("Numbers {$firstNumber} and {$secondNumber}", (string) $rightAnswer);
     }
-    run(GCDDESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $expressionsAndAnswers);
 }

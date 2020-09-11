@@ -3,9 +3,10 @@
 namespace BrainGames\games\Even;
 
 use function BrainGames\Engine\run;
+
 use const BrainGames\Engine\ROUNDS;
 
-const EVENDESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".';
+const DESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".';
 
 function startEven()
 {
@@ -21,5 +22,5 @@ function startEven()
         }
         $expressionsAndAnswers [] = array($numberForQuestion, (string) $rightAnswer);
     }
-    run(EVENDESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $expressionsAndAnswers);
 }

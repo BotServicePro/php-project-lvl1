@@ -3,9 +3,10 @@
 namespace BrainGames\games\Prime;
 
 use function BrainGames\Engine\run;
+
 use const BrainGames\Engine\ROUNDS;
 
-const PRIMEDESCRIPTION = 'Is this number is prime?';
+const DESCRIPTION = 'Is this number is prime?';
 
 function isPrime($number)
 {
@@ -52,5 +53,5 @@ function startPrime()
         }
         $expressionsAndAnswers [] = array("$numberForUser", (string) $rightAnswer);
     }
-    run(PRIMEDESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $expressionsAndAnswers);
 }

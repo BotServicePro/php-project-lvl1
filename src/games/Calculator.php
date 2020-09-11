@@ -3,9 +3,10 @@
 namespace BrainGames\games\Calculator;
 
 use function BrainGames\Engine\run;
+
 use const BrainGames\Engine\ROUNDS;
 
-const CALCDESCRIPTION = "What is the result of the expression?";
+const DESCRIPTION = "What is the result of the expression?";
 
 function rightAnswerCalculator($expressionType, $firstNumber, $secondNumber)
 {
@@ -37,5 +38,5 @@ function startCalculator()
         $correctAnswer = (string) rightAnswerCalculator($tempExpressionType, $firstNumber, $secondNumber);
         $expressionsAndAnswers [] = [$expression, $correctAnswer];
     }
-    run(CALCDESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $expressionsAndAnswers);
 }

@@ -3,9 +3,10 @@
 namespace BrainGames\games\Progression;
 
 use function BrainGames\Engine\run;
+
 use const BrainGames\Engine\ROUNDS;
 
-const PROGDESCRIPTION = 'Write the missing number';
+const DESCRIPTION = 'Write the missing number';
 
 function startProgression()
 {
@@ -28,5 +29,5 @@ function startProgression()
         $rightAnswer = $numbersArray[$randomIndexOfHiddenNumber];
         $expressionsAndAnswers [] = array("{$numberForUser}", (string) $rightAnswer);
     }
-    run(PROGDESCRIPTION, $expressionsAndAnswers);
+    run(DESCRIPTION, $expressionsAndAnswers);
 }
