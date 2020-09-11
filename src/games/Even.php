@@ -10,11 +10,7 @@ const DESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".
 
 function isPrime($numberForQuestion)
 {
-    if ($numberForQuestion % 2 === 0) {
-        return 'yes';
-    } elseif ($numberForQuestion % 2 !== 0) {
-        return 'no';
-    }
+    return ($numberForQuestion % 2 === 0) ? 'yes' : 'no';
 }
 
 function runGame()
