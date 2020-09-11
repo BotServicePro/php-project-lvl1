@@ -18,7 +18,7 @@ function gameSwitcher()
     foreach ($gameNames as $description) {
         print_r($description . "\n");
     }
-    $userAnswer = (string) prompt('Write game name');
+    $userAnswer = (string) prompt('Write the game name');
 
     switch ($userAnswer) {
         case 'Calculating numbers':
