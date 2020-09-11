@@ -24,14 +24,13 @@ function runGame()
 {
     $operators = ["-", "+", "*"];
     $gameData = [];
-
     for ($i = 0; $i < ROUNDSAMOUNT; $i++) {
-        $firstNumber = mt_rand(1, 15); // first random number
-        $secondNumber = mt_rand(1, 15); // second random number
+        $firstNumber = mt_rand(1, 15);
+        $secondNumber = mt_rand(1, 15);
         $tempOperator = $operators[array_rand($operators, 1)]; // temp symbol
-        $expression = "{$firstNumber} {$tempOperator} {$secondNumber}";
-        $correctAnswer = (string) calculate($tempOperator, $firstNumber, $secondNumber);
-        $gameData [] = [$expression, $correctAnswer];
+        $expression = "$firstNumber $tempOperator $secondNumber";
+        $correctAnswer = calculate($tempOperator, $firstNumber, $secondNumber);
+        $gameData [] = [$expression, (string) $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
