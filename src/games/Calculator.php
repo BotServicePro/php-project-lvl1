@@ -8,7 +8,7 @@ use const BrainGames\Engine\ROUNDS;
 
 const DESCRIPTION = "What is the result of the expression?";
 
-function rightAnswerCalculator($expressionType, $firstNumber, $secondNumber)
+function calculate($expressionType, $firstNumber, $secondNumber)
 {
     switch ($expressionType) {
         case "+":
@@ -35,7 +35,7 @@ function startCalculator()
         [array_rand($expressionsTypeArray, 1)]; // temp symbol
         $tempExpressionType = $tempExpressionType[0];
         $expression = "{$firstNumber} {$tempExpressionType} {$secondNumber}";
-        $correctAnswer = (string) rightAnswerCalculator($tempExpressionType, $firstNumber, $secondNumber);
+        $correctAnswer = (string) calculate($tempExpressionType, $firstNumber, $secondNumber);
         $expressionsAndAnswers [] = [$expression, $correctAnswer];
     }
     run(DESCRIPTION, $expressionsAndAnswers);
