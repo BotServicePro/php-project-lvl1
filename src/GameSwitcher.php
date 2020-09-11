@@ -13,32 +13,33 @@ use function BrainGames\games\Progression\rungame as progression;
 function gameSwitcher()
 {
     line('Please choese number the game you want to play:');
-    $gameNames = [
-        1 => 'Calculating numbers: 1',
-        2 => 'If number is even: 2',
-        3 => 'Greatest common divisor: 3',
-        4 => 'If number is prime: 4',
-        5 => 'Arithmetic progression: 5'
+    $listGames = [
+        1 => 'brain-calc',
+        2 => 'brain-even',
+        3 => 'brain-gcd',
+        4 => 'brain-prime',
+        5 => 'brain-progression'
     ];
-    foreach ($gameNames as $description) {
-        print_r($description . "\n");
-    }
-    $userAnswer = (int) prompt('Write the game number');
 
-    switch ($userAnswer) {
-        case '1':
-            calc();
-            break;
-        case '2':
+    foreach ($listGames as $number => $name) {
+        line("$number) $name");
+    }
+
+    $userAnswer = prompt('Enter game number');
+    switch ($listGames[$userAnswer]) {
+        case 'brain-even':
             even();
             break;
-        case '3':
+        case 'brain-calc':
+            calc();
+            break;
+        case 'brain-gcd':
             gcd();
             break;
-        case '4':
+        case 'brain-prime':
             prime();
             break;
-        case '5':
+        case 'brain-progression':
             progression();
             break;
     }
