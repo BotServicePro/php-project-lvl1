@@ -26,12 +26,10 @@ function runGame()
     for ($i = 0; $i < ROUNDS; $i++) {
         $firstNumber = mt_rand(1, 15); // first random number
         $secondNumber = mt_rand(1, 15); // second random number
-        $expressionsTypeArray = ["-", "+", "*"];
-        $tempExpressionType = $expressionsTypeArray
-        [array_rand($expressionsTypeArray, 1)]; // temp symbol
-        $tempExpressionType = $tempExpressionType[0];
-        $expression = "{$firstNumber} {$tempExpressionType} {$secondNumber}";
-        $correctAnswer = (string) calculate($tempExpressionType, $firstNumber, $secondNumber);
+        $operator = ["-", "+", "*"];
+        $tempOperator = $operator[array_rand($operator, 1)]; // temp symbol
+        $expression = "{$firstNumber} {$tempOperator} {$secondNumber}";
+        $correctAnswer = (string) calculate($tempOperator, $firstNumber, $secondNumber);
         $expressionsAndAnswers [] = [$expression, $correctAnswer];
     }
     run(DESCRIPTION, $expressionsAndAnswers);
