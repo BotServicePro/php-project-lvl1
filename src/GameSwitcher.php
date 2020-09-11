@@ -13,9 +13,9 @@ use function BrainGames\games\Progression\rungame as progression;
 function gameSwitcher()
 {
     line('Please choese the game you want to play:');
-    $gameNamesArray = ['Calculating numbers', 'If number is even', 'Greatest common divisor',
+    $gameNames = ['Calculating numbers', 'If number is even', 'Greatest common divisor',
         'If number is prime', 'Arithmetic progression'];
-    foreach ($gameNamesArray as $description) {
+    foreach ($gameNames as $description) {
         print_r($description . "\n");
     }
     $userAnswer = (string) prompt('Write game name');
