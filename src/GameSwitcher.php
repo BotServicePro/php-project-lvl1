@@ -12,28 +12,33 @@ use function BrainGames\games\Progression\rungame as progression;
 
 function gameSwitcher()
 {
-    line('Please choese the game you want to play:');
-    $gameNames = ['Calculating numbers', 'If number is even', 'Greatest common divisor',
-        'If number is prime', 'Arithmetic progression'];
+    line('Please choese number the game you want to play:');
+    $gameNames = [
+        1 => 'Calculating numbers: 1',
+        2 => 'If number is even: 2',
+        3 => 'Greatest common divisor: 3',
+        4 => 'If number is prime: 4',
+        5 => 'Arithmetic progression: 5'
+    ];
     foreach ($gameNames as $description) {
         print_r($description . "\n");
     }
-    $userAnswer = (string) prompt('Write the game name');
+    $userAnswer = (int) prompt('Write the game name');
 
     switch ($userAnswer) {
-        case 'Calculating numbers':
+        case '1':
             calc();
             break;
-        case 'If number is even':
+        case '2':
             even();
             break;
-        case 'Greatest common divisor':
+        case '3':
             gcd();
             break;
-        case 'If number is prime':
+        case '4':
             prime();
             break;
-        case 'Arithmetic progression':
+        case '5':
             progression();
             break;
     }
