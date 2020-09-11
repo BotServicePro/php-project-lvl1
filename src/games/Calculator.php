@@ -26,11 +26,7 @@ function runGame()
     for ($i = 0; $i < ROUNDS; $i++) {
         $firstNumber = mt_rand(1, 15); // first random number
         $secondNumber = mt_rand(1, 15); // second random number
-        $expressionsTypeArray = [
-            ["-"],
-            ["+"],
-            ["*"],
-        ];
+        $expressionsTypeArray = ["-", "+", "*"];
         $tempExpressionType = $expressionsTypeArray
         [array_rand($expressionsTypeArray, 1)]; // temp symbol
         $tempExpressionType = $tempExpressionType[0];
