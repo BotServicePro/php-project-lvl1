@@ -4,11 +4,11 @@ namespace BrainGames\GameSwitcher;
 
 use function cli\line;
 use function cli\prompt;
-use function BrainGames\games\Calculator\startCalculator;
-use function BrainGames\games\Even\startEven;
-use function BrainGames\games\Gcd\startGcd;
-use function BrainGames\games\Prime\startPrime;
-use function BrainGames\games\Progression\startProgression;
+use function BrainGames\games\Calculator\runGame as calc;
+use function BrainGames\games\Even\runGame as even;
+use function BrainGames\games\Gcd\rungame as gcd;
+use function BrainGames\games\Prime\rungame as prime;
+use function BrainGames\games\Progression\rungame as progression;
 
 function gameChoese()
 {
@@ -26,14 +26,14 @@ function gameChoese()
     $gameNumber = (int) prompt('Number');
 
     if ($gameNumber === $gameNamesArray[0][1]) {
-        startCalculator();
+        calc();
     } elseif ($gameNumber === $gameNamesArray[1][1]) {
-        startEven();
+        even();
     } elseif ($gameNumber === $gameNamesArray[2][1]) {
-        startGcd();
+        gcd();
     } elseif ($gameNumber === $gameNamesArray[3][1]) {
-        startPrime();
+        prime();
     } elseif ($gameNumber === $gameNamesArray[4][1]) {
-        startProgression();
+        progression();
     }
 }
