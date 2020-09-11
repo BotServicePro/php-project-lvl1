@@ -3,7 +3,7 @@
 namespace BrainGames\games\Prime;
 
 use function BrainGames\Engine\run;
-use function BrainGames\Engine\totalRounds;
+use const BrainGames\Engine\ROUNDS;
 
 const PRIMEDESCRIPTION = 'Is this number is prime?';
 
@@ -42,7 +42,7 @@ function startPrime()
     $expressionsAndAnswers = [];
     $primeArray = getPrimes(500);
 
-    for ($i = 0; $i < totalRounds(); $i++) {
+    for ($i = 0; $i < ROUNDS; $i++) {
         $numberForUser = mt_rand(1, 500); // number shows to user
         $rightAnswer = in_array($numberForUser, $primeArray); // true or false answer
         if ($rightAnswer === true) {

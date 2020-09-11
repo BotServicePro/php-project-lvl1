@@ -3,7 +3,7 @@
 namespace BrainGames\games\Calculator;
 
 use function BrainGames\Engine\run;
-use function BrainGames\Engine\totalRounds;
+use const BrainGames\Engine\ROUNDS;
 
 const CALCDESCRIPTION = "What is the result of the expression?";
 
@@ -22,7 +22,7 @@ function rightAnswerCalculator($expressionType, $firstNumber, $secondNumber)
 function startCalculator()
 {
     $expressionsAndAnswers = [];
-    for ($i = 0; $i < totalRounds(); $i++) {
+    for ($i = 0; $i < ROUNDS; $i++) {
         $firstNumber = mt_rand(1, 15); // first random number
         $secondNumber = mt_rand(1, 15); // second random number
         $expressionsTypeArray = [
