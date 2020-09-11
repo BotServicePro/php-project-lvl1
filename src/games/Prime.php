@@ -41,17 +41,12 @@ function getPrimes($maxNumber)
 function runGame()
 {
     $gameData = [];
-    $primeArray = getPrimes(500);
-
+    $primeNumbers = getPrimes(500);
     for ($i = 0; $i < ROUNDSAMOUNT; $i++) {
         $numberForUser = mt_rand(1, 500); // number shows to user
-        $rightAnswer = in_array($numberForUser, $primeArray); // true or false answer
-        if ($rightAnswer === true) {
-            $rightAnswer = 'yes';
-        } elseif ($rightAnswer === false) {
-            $rightAnswer = 'no';
-        }
-        $gameData [] = array("$numberForUser", (string) $rightAnswer);
+        $rightAnswer = in_array($numberForUser, $primeNumbers); // true or false answer
+        $rightAnswer = ($rightAnswer === true) ? 'yes' : 'no';
+        $gameData [] = ["$numberForUser", (string) $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
