@@ -16,18 +16,18 @@ function runGame()
         $startingNumber = mt_rand(1, 5000);
         $randomIndexOfHiddenNumber = mt_rand(0, 9); // which position will be hided
         $progressionStep = mt_rand(1, 90); // progression step
-        $numbersArray = range($startingNumber, $startingNumber + ($progressionStep * 9), $progressionStep);
+        $numbers = range($startingNumber, $startingNumber + ($progressionStep * 9), $progressionStep);
         $numberForUser = '';
 
-        foreach ($numbersArray as $item) { // print array with hided number
-            if ($item === $numbersArray[$randomIndexOfHiddenNumber]) {
+        foreach ($numbers as $item) { // print array with hided number
+            if ($item === $numbers[$randomIndexOfHiddenNumber]) {
                 $numberForUser .= '.. ';
                 continue;
             }
-            $numberForUser .= "{$item} ";
+            $numberForUser .= "$item ";
         }
-        $rightAnswer = $numbersArray[$randomIndexOfHiddenNumber];
-        $gameData [] = array("{$numberForUser}", (string) $rightAnswer);
+        $rightAnswer = $numbers[$randomIndexOfHiddenNumber];
+        $gameData [] = ["$numberForUser", (string) $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
