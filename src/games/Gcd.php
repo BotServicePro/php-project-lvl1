@@ -20,7 +20,7 @@ function nodCalculator($firstNumber, $secondNumber) // nod number calculator
     }
 }
 
-function startGcd()
+function runGame()
 {
     $expressionsAndAnswers = [];
 

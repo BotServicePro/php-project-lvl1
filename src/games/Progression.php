@@ -8,7 +8,7 @@ use const BrainGames\Engine\ROUNDS;
 
 const DESCRIPTION = 'Write the missing number';
 
-function startProgression()
+function runGame()
 {
     $expressionsAndAnswers = [];
 

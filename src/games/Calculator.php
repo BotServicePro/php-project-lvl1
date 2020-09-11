@@ -20,7 +20,7 @@ function calculate($expressionType, $firstNumber, $secondNumber)
     }
 }
 
-function startCalculator()
+function runGame()
 {
     $expressionsAndAnswers = [];
     for ($i = 0; $i < ROUNDS; $i++) {

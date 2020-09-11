@@ -38,7 +38,7 @@ function getPrimes($maxNumber)
     return $primes;
 }
 
-function startPrime()
+function runGame()
 {
     $expressionsAndAnswers = [];
     $primeArray = getPrimes(500);
