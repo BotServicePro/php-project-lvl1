@@ -16,6 +16,7 @@ function isPrime($number)
     if ($number % 2 == 0) {
         return false;
     }
+
     $i = 3;
     $maxFactor = (int) sqrt($number);
     while ($i <= $maxFactor) {
@@ -27,24 +28,12 @@ function isPrime($number)
     return true;
 }
 
-function getPrimes($maxNumber)
-{
-    $primes = [];
-    for ($i = 3; $i <= $maxNumber; $i++) {
-        if (isPrime($i)) {
-            $primes [] = $i;
-        }
-    }
-    return $primes;
-}
-
 function runGame()
 {
     $gameData = [];
-    $primeNumbers = getPrimes(500);
     for ($i = 0; $i < ROUNDSAMOUNT; $i++) {
         $numberForUser = mt_rand(1, 500); // number shows to user
-        $rightAnswer = in_array($numberForUser, $primeNumbers); // true or false answer
+        $rightAnswer = isPrime($numberForUser);
         $rightAnswer = ($rightAnswer === true) ? 'yes' : 'no';
         $gameData [] = ["$numberForUser", (string) $rightAnswer];
     }
