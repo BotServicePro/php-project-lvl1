@@ -8,9 +8,9 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = "What is the result of the expression?";
 
-function calculate($tempOperator, $firstNumber, $secondNumber)
+function calculate($operator, $firstNumber, $secondNumber)
 {
-    switch ($tempOperator) {
+    switch ($operator) {
         case "+":
             return $firstNumber + $secondNumber;
         case "-":
@@ -27,9 +27,9 @@ function runGame()
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $firstNumber = mt_rand(1, 15);
         $secondNumber = mt_rand(1, 15);
-        $tempOperator = $operators[array_rand($operators, 1)]; // temp symbol
-        $expression = "$firstNumber $tempOperator $secondNumber";
-        $correctAnswer = calculate($tempOperator, $firstNumber, $secondNumber);
+        $operator = $operators[array_rand($operators, 1)]; // temp symbol
+        $expression = "$firstNumber $operator $secondNumber";
+        $correctAnswer = calculate($operator, $firstNumber, $secondNumber);
         $gameData [] = [$expression, (string) $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
