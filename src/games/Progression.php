@@ -8,9 +8,9 @@ use const BrainGames\Engine\ROUNDSAMOUNT;
 
 const DESCRIPTION = 'Write the missing number';
 
-
 function getNumbers($numbers, $randomIndexOfHiddenNumber)
 {
+    $numbersForUser = '';
     foreach ($numbers as $item) { // print array with hided number
         if ($item === $numbers[$randomIndexOfHiddenNumber]) {
             $numbersForUser .= '.. ';
@@ -18,6 +18,7 @@ function getNumbers($numbers, $randomIndexOfHiddenNumber)
         }
         $numbersForUser .= "$item ";
     }
+    return $numbersForUser;
 }
 
 function runGame()
