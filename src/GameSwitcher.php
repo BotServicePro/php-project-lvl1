@@ -25,14 +25,14 @@ function gameSwitcher()
         line("$number) $name");
     }
 
-    $answer =  prompt('Enter game number');
-    if ($answer !== "1" && $answer !== "2" && $answer !== "3" && $answer !== "4" && $answer !== "5") {
+    $userAnswer =  prompt('Enter game number');
+    if ($userAnswer < 1 || $userAnswer > 5) {
         echo 'Please enter correct game number!';
         line(' ');
         return;
     }
 
-    switch ($listGames[$answer]) {
+    switch ($listGames[$userAnswer]) {
         case 'brain-even':
             even();
             break;
