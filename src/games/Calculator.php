@@ -3,6 +3,7 @@
 namespace BrainGames\games\Calculator;
 
 use function BrainGames\Engine\run;
+use function cli\line;
 
 use const BrainGames\Engine\ROUNDS_COUNT;
 
@@ -17,6 +18,8 @@ function calculate($operator, $firstNumber, $secondNumber)
             return $firstNumber - $secondNumber;
         case "*":
             return $firstNumber * $secondNumber;
+        default:
+            line("Error - nonexistent symbol");
     }
 }
 
