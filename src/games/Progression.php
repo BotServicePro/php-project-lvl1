@@ -30,8 +30,8 @@ function runGame()
         $progressionStep = mt_rand(1, 90); // progression step
         $numbers = range($startingNumber, $startingNumber + ($progressionStep * 9), $progressionStep);
         $numbersForUser = getNumbers($numbers, $randomIndexOfHiddenNumber);
-        $rightAnswer = $numbers[$randomIndexOfHiddenNumber];
-        $gameData [] = ["$numbersForUser", (string) $rightAnswer];
+        $rightAnswer = (string) $numbers[$randomIndexOfHiddenNumber];
+        $gameData [] = ["$numbersForUser", $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }

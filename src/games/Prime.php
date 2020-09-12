@@ -34,8 +34,8 @@ function runGame()
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $numberForUser = mt_rand(1, 500); // number shows to user
         $rightAnswer = isPrime($numberForUser);
-        $rightAnswer = ($rightAnswer === true) ? 'yes' : 'no';
-        $gameData [] = ["$numberForUser", (string) $rightAnswer];
+        $rightAnswer = (string)  ($rightAnswer === true) ? 'yes' : 'no';
+        $gameData [] = ["$numberForUser", $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }

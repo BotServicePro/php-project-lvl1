@@ -22,8 +22,8 @@ function runGame()
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $firstNumber = mt_rand(1, 300);
         $secondNumber = mt_rand(1, 300);
-        $rightAnswer = getGcd($firstNumber, $secondNumber);
-        $gameData [] = ["Question: $firstNumber $secondNumber", (string) $rightAnswer];
+        $rightAnswer = (string) getGcd($firstNumber, $secondNumber);
+        $gameData [] = ["Question: $firstNumber $secondNumber", $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }

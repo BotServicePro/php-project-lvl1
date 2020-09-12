@@ -32,8 +32,8 @@ function runGame()
         $secondNumber = mt_rand(1, 15);
         $operator = $operators[array_rand($operators, 1)]; // temp symbol
         $expression = "$firstNumber $operator $secondNumber";
-        $correctAnswer = calculate($operator, $firstNumber, $secondNumber);
-        $gameData [] = [$expression, (string) $correctAnswer];
+        $correctAnswer = (string) calculate($operator, $firstNumber, $secondNumber);
+        $gameData [] = [$expression, $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
