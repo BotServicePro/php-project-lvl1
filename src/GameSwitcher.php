@@ -27,7 +27,7 @@ function gameSwitcher()
 
     $userAnswer =  prompt('Enter game number');
     if ($userAnswer < 1 || $userAnswer > 5) {
-        echo 'Please enter correct game number!';
+        line('Please enter correct game number!');
         line(' ');
         return;
     }
