@@ -22,5 +22,4 @@ function runGame()
         $gameData [] = [$numberForQuestion, $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
-
 }
