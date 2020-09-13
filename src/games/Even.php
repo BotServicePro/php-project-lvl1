@@ -10,7 +10,7 @@ const DESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".
 
 function isPrime($numberForQuestion)
 {
-    return ($numberForQuestion % 2 === 0) ? 'yes' : 'no';
+    return $numberForQuestion % 2 === 0;
 }
 
 function runGame()
@@ -18,8 +18,9 @@ function runGame()
     $gameData = [];
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $numberForQuestion = rand(1, 50);
-        $rightAnswer = (string) isPrime($numberForQuestion);
+        $rightAnswer = isPrime($numberForQuestion) ? 'yes' : 'no';
         $gameData [] = [$numberForQuestion, $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
+
 }
