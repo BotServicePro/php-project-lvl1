@@ -2,8 +2,9 @@
 
 namespace BrainGames\games\Calculator;
 
+use Exception;
+
 use function BrainGames\Engine\run;
-use function cli\line;
 
 use const BrainGames\Engine\ROUNDS_COUNT;
 
@@ -19,7 +20,7 @@ function calculate($operator, $firstNumber, $secondNumber)
         case "*":
             return $firstNumber * $secondNumber;
         default:
-            line("Error - nonexistent symbol");
+            throw new Exception("Unknown operation symbol $operator");
     }
 }
 
