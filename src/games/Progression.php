@@ -8,30 +8,35 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Write the missing number';
 
-function makeProgression($numbers, $randomIndexOfHiddenNumber)
+function makeProgression($start, $progressionStep, $length, $hiddenElement)
 {
-    $numbersForUser = '';
-    foreach ($numbers as $item) { // print array with hided number
-        if ($item === $numbers[$randomIndexOfHiddenNumber]) {
-            $numbersForUser .= '.. ';
+    $progression = '';
+    $rightAnswer = '';
+    $progressionAndAnswer = [];
+    for ($i = 1; $i <= $length; $i++) { // print array with hided number
+        if ($i === $hiddenElement) {
+            $progression .= '.. ';
+            $rightAnswer = $start + ($progressionStep * $i);
             continue;
+        } elseif ($i !== $hiddenElement) {
+            $temp = $start + ($progressionStep * $i);
+            $progression .= "$temp ";
         }
-        $numbersForUser .= "$item ";
+        $progressionAndAnswer  = [$progression, $rightAnswer];
     }
-    return $numbersForUser;
+    return $progressionAndAnswer;
 }
 
 function runGame()
 {
     $gameData = [];
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
-        $startingNumber = mt_rand(1, 500);
-        $randomIndexOfHiddenNumber = mt_rand(0, 9); // which position will be hided
+        $start = mt_rand(1, 500);
+        $hiddenElement = mt_rand(0, 9); // which position will be hided
+        $length = 10;
         $progressionStep = mt_rand(2, 10); // progression step
-        $numbers = range($startingNumber, $startingNumber + ($progressionStep * 9), $progressionStep);
-        $numbersForUser = makeProgression($numbers, $randomIndexOfHiddenNumber);
-        $rightAnswer = (string) $numbers[$randomIndexOfHiddenNumber];
-        $gameData [] = ["$numbersForUser", $rightAnswer];
+        $progressionAndAnswer = makeProgression($start, $progressionStep, $length, $hiddenElement);
+        $gameData [] = ["$progressionAndAnswer[0]", (string) $progressionAndAnswer[1]];
     }
     run(DESCRIPTION, $gameData);
 }
