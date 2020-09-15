@@ -13,7 +13,7 @@ function makeProgression($start, $progressionStep, $length, $hiddenElement)
     $progression = '';
     $rightAnswer = '';
     $progressionAndAnswer = [];
-    for ($i = 1; $i <= $length; $i++) { // print array with hided number
+    for ($i = 1; $i <= $length; $i++) {
         if ($i === $hiddenElement) {
             $progression .= '.. ';
             $rightAnswer = $start + ($progressionStep * $i);
