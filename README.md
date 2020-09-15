@@ -1,5 +1,4 @@
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
+<a href="https://codeclimate.com/github/BotServicePro/php-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a383ef57cb13153da7d2/maintainability" /></a>
 ![PHP CI](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20CI/badge.svg)
 <br>
 <br>
