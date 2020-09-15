@@ -8,7 +8,7 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Write the missing number';
 
-function getNumbers($numbers, $randomIndexOfHiddenNumber)
+function makeProgression($numbers, $randomIndexOfHiddenNumber)
 {
     $numbersForUser = '';
     foreach ($numbers as $item) { // print array with hided number
@@ -25,11 +25,11 @@ function runGame()
 {
     $gameData = [];
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
-        $startingNumber = mt_rand(1, 5000);
+        $startingNumber = mt_rand(1, 500);
         $randomIndexOfHiddenNumber = mt_rand(0, 9); // which position will be hided
-        $progressionStep = mt_rand(1, 90); // progression step
+        $progressionStep = mt_rand(2, 10); // progression step
         $numbers = range($startingNumber, $startingNumber + ($progressionStep * 9), $progressionStep);
-        $numbersForUser = getNumbers($numbers, $randomIndexOfHiddenNumber);
+        $numbersForUser = makeProgression($numbers, $randomIndexOfHiddenNumber);
         $rightAnswer = (string) $numbers[$randomIndexOfHiddenNumber];
         $gameData [] = ["$numbersForUser", $rightAnswer];
     }
