@@ -2,8 +2,6 @@
 
 namespace BrainGames\GameSwitcher;
 
-use Exception;
-
 use function cli\line;
 use function cli\prompt;
 use function BrainGames\games\Calculator\runGame as calc;
@@ -28,10 +26,6 @@ function gameSwitcher()
     }
 
     $userAnswer =  prompt('Enter game number');
-    if ($userAnswer < 1 || $userAnswer > 5) {
-        line('Please enter correct game number!');
-        return;
-    }
 
     switch ($listGames[$userAnswer]) {
         case 'brain-even':
@@ -50,6 +44,6 @@ function gameSwitcher()
             progression();
             break;
         default:
-            throw new Exception("Unknown user choese $userAnswer");
+            throw new \Exception("Unknown user choese $userAnswer");
     }
 }
