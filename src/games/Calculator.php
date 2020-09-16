@@ -2,10 +2,7 @@
 
 namespace BrainGames\games\Calculator;
 
-use Exception;
-
 use function BrainGames\Engine\run;
-
 use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = "What is the result of the expression?";
@@ -20,7 +17,7 @@ function calculate($operator, $firstNumber, $secondNumber)
         case "*":
             return $firstNumber * $secondNumber;
         default:
-            throw new Exception("Unknown operation symbol $operator");
+            throw new \Exception("Unknown operation symbol $operator");
     }
 }
 
