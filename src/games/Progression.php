@@ -8,35 +8,31 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Write the missing number';
 
-function makeProgression($start, $progressionStep, $length, $hiddenElement)
+function makeProgression($start, $step, $length, $hiddenElement)
 {
-    $progression = '';
-    $rightAnswer = '';
-    $progressionAndAnswer = [];
-    for ($i = 1; $i <= $length; $i++) {
-        if ($i === $hiddenElement) {
-            $progression .= '.. ';
-            $rightAnswer = $start + ($progressionStep * $i);
-            continue;
-        } elseif ($i !== $hiddenElement) {
-            $temp = $start + ($progressionStep * $i);
-            $progression .= "$temp ";
+    $progression = [];
+    for ($i = 0; $i < $length; $i++) {
+        if ($i == $hiddenElement) {
+            $progression[$i] = '..';
+        } else {
+            $progression[$i] = $start + $step * $i;
         }
-        $progressionAndAnswer  = [$progression, $rightAnswer];
     }
-    return $progressionAndAnswer;
+    return $progression;
 }
 
 function runGame()
 {
     $gameData = [];
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
-        $start = mt_rand(1, 500);
-        $hiddenElement = mt_rand(0, 9); // which position will be hided
         $length = 10;
-        $progressionStep = mt_rand(2, 10); // progression step
-        $progressionAndAnswer = makeProgression($start, $progressionStep, $length, $hiddenElement);
-        $gameData [] = ["$progressionAndAnswer[0]", (string) $progressionAndAnswer[1]];
+        $start = mt_rand(1, 100);
+        $hiddenElement = mt_rand(0, 9);
+        $step = mt_rand(2, 10);
+        $progression = makeProgression($start, $step, $length, $hiddenElement);
+        $question = implode(' ', $progression);
+        $correctAnswer = (string) ($start + $hiddenElement * $step);
+        $gameData[] = [$question, $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
