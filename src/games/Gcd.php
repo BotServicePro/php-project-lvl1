@@ -23,7 +23,7 @@ function runGame()
         $firstNumber = mt_rand(1, 300);
         $secondNumber = mt_rand(1, 300);
         $rightAnswer = (string) getGcd($firstNumber, $secondNumber);
-        $gameData [] = ["Question: $firstNumber $secondNumber", $rightAnswer];
+        $gameData[] = ["Question: $firstNumber $secondNumber", $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
