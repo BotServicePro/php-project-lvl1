@@ -19,7 +19,7 @@ function runGame()
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $numberForQuestion = rand(1, 50);
         $rightAnswer = isPrime($numberForQuestion) ? 'yes' : 'no';
-        $gameData [] = [$numberForQuestion, $rightAnswer];
+        $gameData[] = [$numberForQuestion, $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
