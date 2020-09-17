@@ -3,6 +3,7 @@
 namespace BrainGames\games\Calculator;
 
 use function BrainGames\Engine\run;
+
 use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = "What is the result of the expression?";
@@ -31,7 +32,7 @@ function runGame()
         $operator = $operators[array_rand($operators, 1)]; // temp symbol
         $expression = "$firstNumber $operator $secondNumber";
         $correctAnswer = (string) calculate($operator, $firstNumber, $secondNumber);
-        $gameData [] = [$expression, $correctAnswer];
+        $gameData[] = [$expression, $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
 }
