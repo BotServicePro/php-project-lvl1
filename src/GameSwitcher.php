@@ -26,6 +26,10 @@ function gameSwitcher()
     }
 
     $userAnswer =  prompt('Enter game number');
+    if ($userAnswer < 1 || $userAnswer > 5) {
+        line('Please enter correct game number!');
+        gameSwitcher();
+    }
 
     switch ($listGames[$userAnswer]) {
         case 'brain-even':
@@ -43,7 +47,5 @@ function gameSwitcher()
         case 'brain-progression':
             progression();
             break;
-        default:
-            throw new \Exception("Unknown user choese $userAnswer");
     }
 }
