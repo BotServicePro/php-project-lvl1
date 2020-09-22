@@ -12,9 +12,9 @@ function run($description, $gameData)
     line("Welcome to the Brain Games!");
     $userName = prompt('May I have your name?');
     line("Hello, $userName!");
+    line("{$description}");
 
     foreach ($gameData as [$question, $correctAnswer]) {
-        line("{$description}");
         line("Question: $question");
         $userAnswer = prompt("Your answer");
         if ($userAnswer !== $correctAnswer) {
