@@ -20,8 +20,7 @@
         "bin/brain-prime"
     ],
     "scripts": {
-        "phpcs": "phpcs --standard=PSR12",
-        "test": "phpunit tests"
+        "phpcs": "phpcs --standard=PSR12"
     },
     "autoload": {
         "files": [
