@@ -26,12 +26,9 @@ function gameSwitcher()
     }
 
     $userAnswer =  prompt('Enter game number');
-    if ($userAnswer < 1 || $userAnswer > 5) {
-        line('Please enter correct game number!');
-        gameSwitcher();
-    }
+    $choice = array_key_exists($userAnswer, $listGames) ? $listGames[$userAnswer] : null;
 
-    switch ($listGames[$userAnswer]) {
+    switch ($choice) {
         case 'brain-even':
             even();
             break;
@@ -46,6 +43,10 @@ function gameSwitcher()
             break;
         case 'brain-progression':
             progression();
+            break;
+        default:
+            line('Please enter correct game number!');
+            gameSwitcher();
             break;
     }
 }
