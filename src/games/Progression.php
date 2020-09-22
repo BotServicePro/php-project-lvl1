@@ -12,9 +12,7 @@ function makeProgression($start, $step, $length, $hiddenElement)
 {
     $progression = [];
     for ($i = 0; $i < $length; $i++) {
-        if ($i == $hiddenElement) {
-            $progression[$i] = '..';
-        } else {
+        if ($i < 10) {
             $progression[$i] = $start + $step * $i;
         }
     }
@@ -30,8 +28,9 @@ function runGame()
         $hiddenElement = mt_rand(0, 9);
         $step = mt_rand(2, 10);
         $progression = makeProgression($start, $step, $length, $hiddenElement);
-        $question = implode(' ', $progression);
-        $correctAnswer = (string) ($start + $hiddenElement * $step);
+        $correctAnswer = (string) $progression[$hiddenElement];
+        $editedProgression = str_ireplace($progression[$hiddenElement], '..', $progression);
+        $question = implode(' ', $editedProgression);
         $gameData[] = [$question, $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
