@@ -25,11 +25,11 @@ function runGame()
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $length = 10;
         $start = mt_rand(1, 100);
-        $hiddenElement = mt_rand(0, 9);
+        $indexOfHiddenElement = mt_rand(0, $length - 1);
         $step = mt_rand(2, 10);
-        $progression = makeProgression($start, $step, $length, $hiddenElement);
-        $correctAnswer = (string) $progression[$hiddenElement];
-        $editedProgression = str_ireplace($progression[$hiddenElement], '..', $progression);
+        $progression = makeProgression($start, $step, $length, $indexOfHiddenElement);
+        $correctAnswer = (string) $progression[$indexOfHiddenElement];
+        $editedProgression = str_ireplace($progression[$indexOfHiddenElement], '..', $progression);
         $question = implode(' ', $editedProgression);
         $gameData[] = [$question, $correctAnswer];
     }
