@@ -10,6 +10,9 @@ const DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no
 
 function isPrime($number)
 {
+    if ($number <= 1) {
+        return false;
+    }
     if ($number == 2) {
         return true;
     }
