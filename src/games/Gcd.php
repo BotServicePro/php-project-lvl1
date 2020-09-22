@@ -10,7 +10,7 @@ const DESCRIPTION = 'Write the greatest common divisor of this numbers';
 
 function getGcd($firstNumber, $secondNumber) // nod number calculator
 {
-    if ($secondNumber > 0) {
+    if ($secondNumber !== 0) {
         return getGcd($secondNumber, $firstNumber % $secondNumber);
     }
     return abs($firstNumber);
