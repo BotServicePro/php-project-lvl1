@@ -8,9 +8,9 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION =  'Answer "yes" if the number is even, otherwise answer "no".';
 
-function isPrime($numberForQuestion)
+function isPrime($number)
 {
-    return $numberForQuestion % 2 === 0;
+    return $number % 2 === 0;
 }
 
 function runGame()
