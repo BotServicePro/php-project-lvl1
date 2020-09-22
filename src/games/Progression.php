@@ -8,11 +8,11 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 
 const DESCRIPTION = 'Write the missing number';
 
-function makeProgression($start, $step, $length, $hiddenElement)
+function makeProgression($start, $step, $length)
 {
     $progression = [];
     for ($i = 0; $i < $length; $i++) {
-        if ($i < 10) {
+        if ($i < $length) {
             $progression[$i] = $start + $step * $i;
         }
     }
@@ -27,7 +27,7 @@ function runGame()
         $start = mt_rand(1, 100);
         $indexOfHiddenElement = mt_rand(0, $length - 1);
         $step = mt_rand(2, 10);
-        $progression = makeProgression($start, $step, $length, $indexOfHiddenElement);
+        $progression = makeProgression($start, $step, $length);
         $correctAnswer = (string) $progression[$indexOfHiddenElement];
         $editedProgression = str_ireplace($progression[$indexOfHiddenElement], '..', $progression);
         $question = implode(' ', $editedProgression);
