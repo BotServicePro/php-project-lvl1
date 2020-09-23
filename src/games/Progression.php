@@ -12,9 +12,7 @@ function makeProgression($start, $step, $length)
 {
     $progression = [];
     for ($i = 0; $i < $length; $i++) {
-        if ($i < $length) {
-            $progression[$i] = $start + $step * $i;
-        }
+        $progression[$i] = $start + $step * $i;
     }
     return $progression;
 }
@@ -34,4 +32,5 @@ function runGame()
         $gameData[] = [$question, $correctAnswer];
     }
     run(DESCRIPTION, $gameData);
+    //print_r($question);
 }
