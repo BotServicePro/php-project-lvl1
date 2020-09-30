@@ -55,4 +55,4 @@ How to start the game "Roman to number":
 <br>
 How to start the game "Number to roman":
 <br>
-<a href="https://asciinema.org/a/362720?autoplay=1"><img src="https://asciinema.org/a/362720.png"/></a>
+<a href="https://asciinema.org/a/362721?autoplay=1"><img src="https://asciinema.org/a/362721.png" width="250"/></a>
