@@ -17,7 +17,9 @@
         "bin/brain-calc",
         "bin/brain-gcd",
         "bin/brain-progression",
-        "bin/brain-prime"
+        "bin/brain-prime",
+        "bin/brain-numberToRoman",
+        "bin/brain-romanToNumber"
     ],
     "scripts": {
         "phpcs": "phpcs --standard=PSR12"
@@ -30,7 +32,9 @@
             "src/games/Gcd.php",
             "src/games/Progression.php",
             "src/games/Prime.php",
-            "src/GameSwitcher.php"
+            "src/GameSwitcher.php",
+            "src/games/ToNumber.php",
+            "src/games/ToRoman.php"
         ]
     },
     "require-dev": {
