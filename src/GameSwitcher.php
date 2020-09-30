@@ -9,6 +9,8 @@ use function BrainGames\games\Even\runGame as even;
 use function BrainGames\games\Gcd\rungame as gcd;
 use function BrainGames\games\Prime\rungame as prime;
 use function BrainGames\games\Progression\rungame as progression;
+use function BrainGames\games\ToRoman\rungame as ToRoman;
+use function BrainGames\games\ToNumber\rungame as ToNumber;
 
 function gameSwitcher()
 {
@@ -18,7 +20,9 @@ function gameSwitcher()
         2 => 'brain-even',
         3 => 'brain-gcd',
         4 => 'brain-prime',
-        5 => 'brain-progression'
+        5 => 'brain-progression',
+        6 => 'brain-romanToNumber',
+        7 => 'brain-numberToRoman'
     ];
 
     foreach ($listGames as $number => $name) {
@@ -43,6 +47,12 @@ function gameSwitcher()
             break;
         case 'brain-progression':
             progression();
+            break;
+        case 'brain-numberToRoman':
+            ToRoman();
+            break;
+        case 'brain-romanToNumber':
+            ToNumber();
             break;
         default:
             line('Please enter correct game number!');
