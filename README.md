@@ -2,7 +2,7 @@
 [![Github Actions Status](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20CI/badge.svg)](https://github.com/BotServicePro/php-project-lvl1/actions)
 <br>
 <br>
-Brain-Games is my first project from Hexlet! It contains 5 console games.
+Brain-Games is my first project from Hexlet! It contains 7 console games.
 <br>
 <br>
 How to install globally:
@@ -14,7 +14,9 @@ To start this project we have 2 ways:
 <br>
 <b>First</b> - run games separately from each other by 
 <br>
-calling in console "<i>brain-calc</i>", "<i>brain-even</i>", "<i>brain-gcd</i>", "<i>brain-prime</i>", "<i>brain-progression</i>" files.
+calling in console "<i>brain-calc</i>", "<i>brain-even</i>", "<i>brain-gcd</i>", "<i>brain-prime</i>",
+<br>
+"<i>brain-progression</i>", "<i>brain-romanToNumber</i>" and "<i>brain-numberToRoman</i>" files.
 <br>
 <b>Second</b> - start one controller file in console "<i>allGames</i>" which gives you possibility to choese
 <br>
@@ -44,3 +46,13 @@ How to start the game "Arithmetic progression":
 How to start the game "If number is prime":
 <br>
 <a href="https://asciinema.org/a/357549?autoplay=1"><img src="https://asciinema.org/a/357549.png" width="250"/></a>
+<br>
+<br>
+How to start the game "Roman to number":
+<br>
+<a href="https://asciinema.org/a/362713?autoplay=1"><img src="https://asciinema.org/a/362713.png" width="250"/></a>
+<br>
+<br>
+How to start the game "Number to roman":
+<br>
+<a href="https://asciinema.org/a/362720?autoplay=1"><img src="https://asciinema.org/a/362720.png"/></a>
