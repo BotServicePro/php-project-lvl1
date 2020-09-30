@@ -39,9 +39,9 @@ function runGame()
 {
     $gameData = [];
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
-        $number = mt_rand(1, 3500);
-        $romanNumber = toRoman($number);
-        $rightAnswer = (string) $number;
+        $number = mt_rand(1, 30);
+        $rightAnswer = (string) toRoman($number);
+        $romanNumber =  $number;
         $gameData[] = [$romanNumber, $rightAnswer];
     }
     run(DESCRIPTION, $gameData);
