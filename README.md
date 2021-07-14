@@ -1,5 +1,6 @@
 <a href="https://codeclimate.com/github/BotServicePro/php-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/a383ef57cb13153da7d2/maintainability" /></a>
 [![Github Actions Status](https://github.com/BotServicePro/php-project-lvl1/workflows/PHP%20CI/badge.svg)](https://github.com/BotServicePro/php-project-lvl1/actions)
+
 ##Brain-Games is my first project from Hexlet! It contains 7 console games.
 How to install globally:
 <br>
